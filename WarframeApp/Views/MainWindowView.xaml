@@ -1,0 +1,25 @@
+﻿<Window x:Class="WarframeApp.Views.MainWindowView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:views = "clr-namespace:WarframeApp.Views"
+             xmlns:vml = "clr-namespace:WarframeApp.ViewModelLocator"
+             vml:ViewModelLocator.AutoHookedUpViewModel = "True"
+             mc:Ignorable="d"
+             Closing="MainWindow_Closing"
+             Title="WFApp" d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <TabControl Name="TabsMain" HorizontalAlignment="Stretch" Margin="10,10,10,10">
+            <TabItem Header="RelicDrops" Width="auto" Height="22" VerticalAlignment="Top">
+
+            </TabItem>
+            <TabItem Header="Inventory" Width="auto" Height="22" VerticalAlignment="Top" IsSelected="True">
+                <views:InventoryView x:Name ="InventoryViewControl" />
+            </TabItem>
+            <TabItem Header="Calculations" Width="auto" Height="22" VerticalAlignment="Top">
+                <views:CalculationsView x:Name ="CalculationsViewControl" />
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

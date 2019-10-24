@@ -1,0 +1,452 @@
+﻿<UserControl x:Class="WarframeApp.Views.InventoryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:vml = "clr-namespace:WarframeApp.ViewModelLocator"
+             vml:ViewModelLocator.AutoHookedUpViewModel = "True"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="800">
+    <UserControl.Resources>
+        <Style x:Key="StyleHiddenDataGrid" TargetType="{x:Type DataGrid}">
+            <Style.Triggers>
+                <Trigger Property="HasItems" Value="False">
+                    <Setter Property="Visibility" Value="Collapsed" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="StyleSelectableLabel" TargetType="{x:Type TextBox}">
+            <Setter Property="Background" Value="{Binding Background, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
+            <Setter Property="IsReadOnly" Value="True"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="TextWrapping" Value="NoWrap"/>
+        </Style>
+        <DataTemplate x:Key="TemplateMasteryColumn">
+            <VirtualizingStackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <CheckBox IsChecked="{Binding Path=Mastery, UpdateSourceTrigger=PropertyChanged}"  />
+            </VirtualizingStackPanel>
+        </DataTemplate>
+        <DataTemplate x:Key="TemplateNumOwnedColumn">
+            <VirtualizingStackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <CheckBox IsChecked="{Binding Path=NumOwned, Mode=TwoWay, Converter={StaticResource IntToBool}, UpdateSourceTrigger=PropertyChanged}"/>
+                <TextBox Text="{Binding Path=NumOwned, UpdateSourceTrigger=PropertyChanged}" MinWidth="40"/>
+            </VirtualizingStackPanel>
+        </DataTemplate>
+        <DataTemplate x:Key="TemplateFoundryReadyColumn">
+            <CheckBox IsChecked="{Binding Path=FoundryReady, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </DataTemplate>
+        <DataTemplate x:Key="TemplateItemNameColumn">
+            <TextBox Text="{Binding Path=name}" Padding="3,0" HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                         Style="{StaticResource StyleSelectableLabel}"/>
+        </DataTemplate>
+        <DataTemplate x:Key="TemplateCategoryColumn">
+            <TextBox Text="{Binding Path=category}" Padding="3,0" HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                         Style="{StaticResource StyleSelectableLabel}"/>
+        </DataTemplate>
+        <DataTemplate x:Key="TemplateDropsGrid">
+            <Expander Header="Drops">
+                <DataGrid Name="drops" ItemsSource="{Binding Path=drops}" Style="{StaticResource StyleHiddenDataGrid}" 
+                          AutoGenerateColumns="False" CanUserAddRows="False" ScrollViewer.CanContentScroll="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Rarity" Width="auto" SortMemberPath="rarity">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBox Text="{Binding Path=rarity}" Padding="3,0" HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                         Style="{StaticResource StyleSelectableLabel}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Chance" Width="auto" SortMemberPath="chance">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBox Text="{Binding Path=chance}" Padding="3,0" HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                         Style="{StaticResource StyleSelectableLabel}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Location" Width="*" SortMemberPath="location">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBox Text="{Binding Path=location}" Padding="3,0" HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                         Style="{StaticResource StyleSelectableLabel}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Expander>
+        </DataTemplate>
+        <DataTemplate x:Key="TemplateExpandedDropsGrid">
+            <Expander Header="Drops" IsExpanded="True">
+                <DataGrid Name="drops" ItemsSource="{Binding Path=drops}" Style="{StaticResource StyleHiddenDataGrid}" 
+                          AutoGenerateColumns="False" CanUserAddRows="False" ScrollViewer.CanContentScroll="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Width="auto" Header="Rarity" SortMemberPath="rarity">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBox Text="{Binding Path=rarity}" Padding="3,0" HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                         Style="{StaticResource StyleSelectableLabel}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Width="auto" Header="Chance" SortMemberPath="chance">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBox Text="{Binding Path=chance}" Padding="3,0" HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                         Style="{StaticResource StyleSelectableLabel}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Width="*" Header="Location" SortMemberPath="location">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBox Text="{Binding Path=location}" Padding="3,0" HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                         Style="{StaticResource StyleSelectableLabel}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Expander>
+        </DataTemplate>
+        <DataTemplate x:Key="TemplateBuildablesRowDetail">
+            <Grid>
+                <Label Content="Build requirements"/>
+                <DataGrid Name="requirements" ItemsSource="{Binding Path=components}" Style="{StaticResource StyleHiddenDataGrid}" 
+                          AutoGenerateColumns="False" CanUserAddRows="False" ScrollViewer.CanContentScroll="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Mastered" Width="auto" SortMemberPath="Mastery" CellTemplate="{StaticResource TemplateMasteryColumn}"/>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Ready to Build" Width="auto" SortMemberPath="FoundryReady" CellTemplate="{StaticResource TemplateFoundryReadyColumn}"/>
+                        <DataGridTemplateColumn Header="Name" Width="auto" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                        <DataGridTemplateColumn Header="Amount" Width="auto" SortMemberPath="itemCount">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Label Content="{Binding Path=itemCount}" Padding="3,0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Drops Info" Width="*" CellTemplate="{StaticResource TemplateDropsGrid}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </DataTemplate>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <TabControl Grid.Row="0" Name="TabCategories"  HorizontalAlignment="Stretch" Margin="3,3,3,1">
+            <TabItem Header="Warframes" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListWarframes" ItemsSource="{Binding Path=UserInventory.Warframes}" RowDetailsTemplate="{StaticResource TemplateBuildablesRowDetail}" 
+                          RowDetailsVisibilityMode="Collapsed" AutoGenerateColumns="False" CanUserAddRows="False" ScrollViewer.CanContentScroll="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Expander  Expanded="ShowHideDetails" Collapsed="ShowHideDetails"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Width="auto" SortMemberPath="Mastery" CellTemplate="{StaticResource TemplateMasteryColumn}">
+                            <DataGridTemplateColumn.Header>
+                                <TextBlock Text="{Binding Path=UserInventory.Warframes.Count}" />
+                            </DataGridTemplateColumn.Header>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Ready to Build" Width="auto" SortMemberPath="FoundryReady" CellTemplate="{StaticResource TemplateFoundryReadyColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Primaries" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListPrimaries" ItemsSource="{Binding Path=UserInventory.Primaries}" RowDetailsTemplate="{StaticResource TemplateBuildablesRowDetail}" 
+                          RowDetailsVisibilityMode="Collapsed" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Expander  Expanded="ShowHideDetails" Collapsed="ShowHideDetails"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Mastered" Width="auto" SortMemberPath="Mastery" CellTemplate="{StaticResource TemplateMasteryColumn}"/>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Ready to Build" Width="auto" SortMemberPath="FoundryReady" CellTemplate="{StaticResource TemplateFoundryReadyColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Secondaries" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListSecondaries" ItemsSource="{Binding Path=UserInventory.Secondaries}" RowDetailsTemplate="{StaticResource TemplateBuildablesRowDetail}" 
+                          RowDetailsVisibilityMode="Collapsed" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Expander  Expanded="ShowHideDetails" Collapsed="ShowHideDetails"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Mastered" Width="auto" SortMemberPath="Mastery" CellTemplate="{StaticResource TemplateMasteryColumn}"/>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Ready to Build" Width="auto" SortMemberPath="FoundryReady" CellTemplate="{StaticResource TemplateFoundryReadyColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Melees" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListMelees" ItemsSource="{Binding Path=UserInventory.Melees}" RowDetailsTemplate="{StaticResource TemplateBuildablesRowDetail}" 
+                          RowDetailsVisibilityMode="Collapsed" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Expander  Expanded="ShowHideDetails" Collapsed="ShowHideDetails"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Mastered" Width="auto" SortMemberPath="Mastery" CellTemplate="{StaticResource TemplateMasteryColumn}"/>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Ready to Build" Width="auto" SortMemberPath="FoundryReady" CellTemplate="{StaticResource TemplateFoundryReadyColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Pets" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListPets" ItemsSource="{Binding Path=UserInventory.Pets}" RowDetailsTemplate="{StaticResource TemplateBuildablesRowDetail}" 
+                          RowDetailsVisibilityMode="Collapsed" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Expander  Expanded="ShowHideDetails" Collapsed="ShowHideDetails"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Mastered" Width="auto" SortMemberPath="Mastery" CellTemplate="{StaticResource TemplateMasteryColumn}"/>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Ready to Build" Width="auto" SortMemberPath="FoundryReady" CellTemplate="{StaticResource TemplateFoundryReadyColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Sentinels" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListSentinels" ItemsSource="{Binding Path=UserInventory.Sentinels}" RowDetailsTemplate="{StaticResource TemplateBuildablesRowDetail}" 
+                          RowDetailsVisibilityMode="Collapsed" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Expander  Expanded="ShowHideDetails" Collapsed="ShowHideDetails"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Mastered" Width="auto" SortMemberPath="Mastery" CellTemplate="{StaticResource TemplateMasteryColumn}"/>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Ready to Build" Width="auto" SortMemberPath="FoundryReady" CellTemplate="{StaticResource TemplateFoundryReadyColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Archwings" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListArchwings" ItemsSource="{Binding Path=UserInventory.Archwings}" RowDetailsTemplate="{StaticResource TemplateBuildablesRowDetail}" 
+                          RowDetailsVisibilityMode="Collapsed" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Expander  Expanded="ShowHideDetails" Collapsed="ShowHideDetails"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Mastered" Width="auto" SortMemberPath="Mastery" CellTemplate="{StaticResource TemplateMasteryColumn}"/>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Ready to Build" Width="auto" SortMemberPath="FoundryReady" CellTemplate="{StaticResource TemplateFoundryReadyColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Relics" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListRelics" ItemsSource="{Binding Path=UserInventory.Relics}" RowDetailsTemplate="{StaticResource TemplateBuildablesRowDetail}" 
+                          RowDetailsVisibilityMode="Collapsed" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Expander  Expanded="ShowHideDetails" Collapsed="ShowHideDetails"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Gear" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListGear" ItemsSource="{Binding Path=UserInventory.Gear}" RowDetailsTemplate="{StaticResource TemplateBuildablesRowDetail}" 
+                          RowDetailsVisibilityMode="Collapsed" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Expander  Expanded="ShowHideDetails" Collapsed="ShowHideDetails"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Ready to Build" Width="auto" SortMemberPath="FoundryReady" CellTemplate="{StaticResource TemplateFoundryReadyColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Resources" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListResources" ItemsSource="{Binding Path=UserInventory.Resources}" RowDetailsTemplate="{StaticResource TemplateBuildablesRowDetail}" 
+                          RowDetailsVisibilityMode="Collapsed" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Expander  Expanded="ShowHideDetails" Collapsed="ShowHideDetails"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Resource" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Fishes" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListFishes" ItemsSource="{Binding Path=UserInventory.Fishes}" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Fish" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Arcanes" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListArcanes" ItemsSource="{Binding Path=UserInventory.Arcanes}" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Lvl3 In Inventory" Width="auto" SortMemberPath="NumOwnedlvl3">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                        <CheckBox IsChecked="{Binding Path=NumOwnedlvl3, Mode=TwoWay, Converter={StaticResource IntToBool}, UpdateSourceTrigger=PropertyChanged}"/>
+                                        <TextBox Text="{Binding Path=NumOwnedlvl3, UpdateSourceTrigger=PropertyChanged}" MinWidth="40"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Misc" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListMisc" ItemsSource="{Binding Path=UserInventory.Misc}" RowDetailsTemplate="{StaticResource TemplateBuildablesRowDetail}" 
+                          RowDetailsVisibilityMode="Collapsed" AutoGenerateColumns="False" CanUserAddRows="False" ScrollViewer.CanContentScroll="False" EnableRowVirtualization="True">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Expander  Expanded="ShowHideDetails" Collapsed="ShowHideDetails"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Mastered" Width="auto" SortMemberPath="Mastery" CellTemplate="{StaticResource TemplateMasteryColumn}"/>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Ready to Build" Width="auto" SortMemberPath="FoundryReady" CellTemplate="{StaticResource TemplateFoundryReadyColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Quests" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListQuests" ItemsSource="{Binding Path=UserInventory.Quests}" RowDetailsTemplate="{StaticResource TemplateBuildablesRowDetail}" 
+                          RowDetailsVisibilityMode="Collapsed" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Expander  Expanded="ShowHideDetails" Collapsed="ShowHideDetails"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Mastered" Width="auto" SortMemberPath="Mastery" CellTemplate="{StaticResource TemplateMasteryColumn}"/>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Mods" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListMods" ItemsSource="{Binding Path=UserInventory.Mods}" RowDetailsTemplate="{StaticResource TemplateExpandedDropsGrid}" 
+                          RowDetailsVisibilityMode="Collapsed" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Expander  Expanded="ShowHideDetails" Collapsed="ShowHideDetails"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Skins" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListSkins" ItemsSource="{Binding Path=UserInventory.Skins}" RowDetailsTemplate="{StaticResource TemplateBuildablesRowDetail}" 
+                          RowDetailsVisibilityMode="Collapsed" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Expander  Expanded="ShowHideDetails" Collapsed="ShowHideDetails"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Ready to Build" Width="auto" SortMemberPath="FoundryReady" CellTemplate="{StaticResource TemplateFoundryReadyColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Glyphs" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListGlyphs" ItemsSource="{Binding Path=UserInventory.Glyphs}" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Sigils" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListSigils" ItemsSource="{Binding Path=UserInventory.Sigils}" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Prime Parts" Width="auto" Height="22" VerticalAlignment="Top">
+                <DataGrid Name="ListPrimeParts" ItemsSource="{Binding Path=UserInventory.PrimeParts}" RowDetailsTemplate="{StaticResource TemplateExpandedDropsGrid}" 
+                          RowDetailsVisibilityMode="Collapsed" AutoGenerateColumns="False" CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Expander  Expanded="ShowHideDetails" Collapsed="ShowHideDetails"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="In Inventory" Width="auto" SortMemberPath="Value.NumOwned" CellTemplate="{StaticResource TemplateNumOwnedColumn}"/>
+                        <DataGridTemplateColumn Header="Ready to Build" Width="auto" SortMemberPath="Value.FoundryReady" CellTemplate="{StaticResource TemplateFoundryReadyColumn}"/>
+                        <DataGridTemplateColumn Header="Category" Width="auto" SortMemberPath="Key.category" CellTemplate="{StaticResource TemplateCategoryColumn}"/>
+                        <DataGridTemplateColumn Header="Item Name" Width="*" SortMemberPath="name" CellTemplate="{StaticResource TemplateItemNameColumn}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+        </TabControl>
+        <Button Grid.Row="1" Name="BtnSave" Content="Save Data" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="100" Height="auto" FontFamily="Segoe UI" FontSize="12" Margin="0,0" Command="{Binding BtnSaveCommand}"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,830 @@
+{
+	"ExportGear": [{
+			"uniqueName": "/Lotus/Types/Restoratives/TeamShieldTotem",
+			"name": "SQUAD SHIELD RESTORE (SMALL)",
+			"description": "Restores Shields to all squad members. Pulses 35 Shield every 7.5s for 30s.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/TeamHealTotem",
+			"name": "SQUAD HEALTH RESTORE (SMALL)",
+			"description": "Restores Health to all squad members. Pulses 30 Health every 7.5s for 30s.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/TeamHeal",
+			"name": "SQUAD HEALTH RESTORE (SMALL)",
+			"description": "Restores Health to all squad members. Pulses 30 Health every 7.5s for 30s.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/TeamEnergyTotem",
+			"name": "SQUAD ENERGY RESTORE (SMALL)",
+			"description": "Restores Energy to all squad members. Pulses 25 Energy every 7.5s for 30s.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/TeamAmmoTotem",
+			"name": "SQUAD AMMO RESTORE (SMALL)",
+			"description": "Restores Ammo to all squad members. Ammo per pulse: 30 Rifle, 15 Pistol, 12 Shotgun, 5 Sniper every 7.5s for 30s.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/SyndicateTeamShieldTotem",
+			"name": "SQUAD SHIELD RESTORE (LARGE)",
+			"description": "Restores Shields to all squad members. Pulses 300 Shield every 7.5s for 30s.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/SyndicateTeamHealTotem",
+			"name": "SQUAD HEALTH RESTORE (LARGE)",
+			"description": "Restores Health to all squad members. Pulses 300 Health every 7.5s for 30s.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/SyndicateTeamEnergyTotem",
+			"name": "SQUAD ENERGY RESTORE (LARGE)",
+			"description": "Restores Energy to all squad members. Pulses 100 Energy every 7.5s for 30s.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/SyndicateTeamAmmoTotem",
+			"name": "SQUAD AMMO RESTORE (LARGE)",
+			"description": "Restores Ammo to all squad members. Ammo per pulse: 110 Rifle, 60 Pistol, 50 Shotgun, 30 Sniper every 7.5s for 30s.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/SelfSniperAmmo",
+			"name": "SNIPER AMMO BOX",
+			"description": "Restores a bunch of sniper ammo.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/SelfShotgunAmmo",
+			"name": "SHOTGUN AMMO BOX",
+			"description": "Restores a bunch of shotgun ammo.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/SelfShieldHeal",
+			"name": "SHIELD RESTORE (SMALL)",
+			"description": "Instantly restores 50 Shield.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/SelfRifleAmmo",
+			"name": "RIFLE AMMO BOX",
+			"description": "Restores a bunch of rifle ammo.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/SelfPistolAmmo",
+			"name": "PISTOL AMMO BOX",
+			"description": "Restores a bunch of pistol ammo.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/SelfOmniAmmo",
+			"name": "OMNI AMMO BOX",
+			"description": "Fully restores all ammo types.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/SelfHealSmall",
+			"name": "HEALTH RESTORE (SMALL)",
+			"description": "Instantly restores 50 Health.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/SelfHealLarge",
+			"name": "HEALTH RESTORE (LARGE)",
+			"description": "Instantly restores your Health to full.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/OpenArchwingSummon",
+			"name": "ARCHWING LAUNCHER",
+			"description": "Summons an Archwing for use during free roam missions.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/LisetTurret",
+			"name": "SENTRY GUN",
+			"description": "Ordis delivers an automatic turret that will fire upon nearby visible enemies.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/LisetShield",
+			"name": "Snow Globe",
+			"description": "Frost deep freezes any vapor and moisture in the area, creating a protective sphere with brief invulnerability to boost its strength.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/LisetMedStation",
+			"name": "MED-TOWER",
+			"description": "Ordis delivers a Med-Tower to restore health to nearby allies.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/LisetLaserTurret",
+			"name": "LaserTurret",
+			"description": "Launches homing missiles",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/LisetBlackHole",
+			"name": "Vortex",
+			"description": "Creates a whirling mass of energy that violently attracts nearby enemies, crushing their atoms into a tiny spec of matter.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/LisetBarrage",
+			"name": "CARPET BOMB",
+			"description": "Ordis drops bombs in a line from your position to the beacon you placed.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/LisetAutoHack",
+			"name": "OVERRIDE",
+			"description": "Ordis hacks into enemy systems and disrupts security protocols for a short period.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/LisetAmmoDrop",
+			"name": "SQUAD AMMO RESTORE (MEDIUM)",
+			"description": "Restores Ammo to all squad members. Ammo per pulse: 80 Rifle, 45 Pistol, 35 Shotgun, 20 Sniper every 7.5s for 30s.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/LisetAirSupport",
+			"name": "AIR SUPPORT CHARGES",
+			"description": "Charges consumed by Landing Craft Air Support.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/ClanTeamShieldTotem",
+			"name": "SQUAD SHIELD RESTORE (MEDIUM)",
+			"description": "Restores Shields to all squad members. Pulses 100 Shield every 7.5s for 30s.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/ClanTeamHealTotem",
+			"name": "SQUAD HEALTH RESTORE (MEDIUM)",
+			"description": "Restores Health to all squad members. Pulses 100 Health every 5s for 20s.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/ClanTeamEnergyTotem",
+			"name": "SQUAD ENERGY RESTORE (MEDIUM)",
+			"description": "Restores Energy to all squad members. Pulses 50 Energy every 5s for 20s.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/ClanTeamAmmoTotem",
+			"name": "SQUAD AMMO RESTORE (MEDIUM)",
+			"description": "Restores Ammo to all squad members. Ammo per pulse: 80 Rifle, 45 Pistol, 35 Shotgun, 20 Sniper every 7.5s for 30s.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Cipher",
+			"name": "CIPHER",
+			"description": "Single-use device used for auto-hacking the lockdown control panels.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Upgraded/SpeedDebuffKey",
+			"name": "HOBBLED DRAGON KEY",
+			"description": "Speed is greatly reduced while key is equipped.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Upgraded/ShieldDebuffKey",
+			"name": "DECAYING DRAGON KEY",
+			"description": "Shields are greatly reduced while key is equipped.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Upgraded/HealthDebuffKey",
+			"name": "BLEEDING DRAGON KEY",
+			"description": "Health is greatly reduced while key is equipped.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Upgraded/DamageDebuffKey",
+			"name": "EXTINGUISHED DRAGON KEY",
+			"description": "Damage is greatly reduced while key is equipped.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Upgraded/CorruptedKey"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractorI",
+			"name": "Xattractor 9",
+			"description": "",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractor"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractorH",
+			"name": "Xattractor 8",
+			"description": "",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractor"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractorG",
+			"name": "Xattractor 7",
+			"description": "",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractor"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractorF",
+			"name": "Xattractor 6",
+			"description": "",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractor"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractorE",
+			"name": "Xattractor 5",
+			"description": "",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractor"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractorD",
+			"name": "Xattractor 4",
+			"description": "",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractor"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractorC",
+			"name": "Xattractor 3",
+			"description": "",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractor"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractorB",
+			"name": "Xattractor 2",
+			"description": "",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractor"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Upgraded/AssassinAttractor",
+			"name": "Xattractor 1",
+			"description": "",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonOrphidSaryn",
+			"name": "TWILIGHT APOTHIC",
+			"description": "Creates an organic compound composed of rare plant species. Effects unknown.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonKnaveLoki",
+			"name": "NIGHTFALL APOTHIC",
+			"description": "Creates an organic compound composed of rare plant species. Effects unknown.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonFeyarchOberon",
+			"name": "SUNRISE APOTHIC",
+			"description": "Creates an organic compound composed of rare plant species. Effects unknown.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/TitaniaQuest/SpecterSummonBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/ValentinesArrowBundle",
+			"name": "EROS ARROW SKIN",
+			"description": "Show the enemy how much you care with the adorable Eros Arrow skin. Works with all bows.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/StableCorruptor",
+			"name": "STABLE CORRUPTOR",
+			"description": "Injected into a Fomorian Reactor this corruptor will imbalance the fuels. Critically imbalanced reactors will eventually implode, destroy the ship. Slow but effective, recommended for Solo Tenno.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/Corruptor"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/SilverSpectre",
+			"name": "PHASE SPECTER",
+			"description": "A replicant cloned from a Warframe which can be deployed to assist Tenno on their missions.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/SpectreBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/ShieldDroneBall",
+			"name": "SHIELD OSPREY SPECTER",
+			"description": "Deploys a SHIELD OSPREY EXIMUS unit to fight for you.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/SummonNpcItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/Scanner",
+			"name": "CODEX SCANNER",
+			"description": "Samples a target of interest for later analysis in your Codex (25 charges).",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/RollerBall",
+			"name": "ROLLER SPECTER",
+			"description": "Deploys a ROLLER EXIMUS unit to fight for you.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/SummonNpcItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/RazorbackCipher",
+			"name": "RAZORBACK CIPHER",
+			"description": "Used to bypass security systems that protect the Razorback's holding cell.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/PlatinumSpectre",
+			"name": "COSMIC SPECTER",
+			"description": "A replicant cloned from a Warframe which can be deployed to assist Tenno on their missions.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/SpectreBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/MoaBall",
+			"name": "MOA SPECTER",
+			"description": "Deploys a MOA EXIMUS unit to fight for you.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/SummonNpcItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/MiningLaserSolaris",
+			"name": "SUNPOINT PLASMA DRILL",
+			"description": "Fast-ignition, high-intensity mining tool capable of extracting the rarest of materials with surgical precision.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/MiningLaser"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/MiningLaserC",
+			"name": "ADVANCED NOSAM CUTTER",
+			"description": "Enhanced with cybernetics, this tool is able to locate nearby gems and ore veins and has chance to retrieve Eidolon Gems.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/MiningLaser"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/MapMarker",
+			"name": "LOC-PIN",
+			"description": "A persistent waypoint marker for use with the world map. Coordinate your squad and track places of importance!",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/MacheteWomanBall",
+			"name": "SCORPION SPECTER",
+			"description": "Deploys a SCORPION EXIMUS unit to fight for you.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/SummonNpcItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/LocationMarkerMining",
+			"name": "[PH] MINING MARKER",
+			"description": "[PH] Place a persistent marker with a mining icon at your position",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/LocationMarkerFishing",
+			"name": "[PH] FISHING MARKER",
+			"description": "[PH] Place a persistent marker with a fishing icon at your position",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/LocationMarkerCombat",
+			"name": "[PH] COMBAT MARKER",
+			"description": "[PH] Place a persistent marker with a combat icon at your position",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/LibraryScanner",
+			"name": "SYNTHESIS SCANNER",
+			"description": "Synthesize a genetic data of the target and uploads it to the Sanctuary.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/InfestedSyringe",
+			"name": "ANTISERUM INJECTOR",
+			"description": "Injects antiserum into Vaporizers or the user to prevent armor degradation.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/InfestedIrradiatedBaitBall",
+			"name": "POTENT PHERLIAC PODS",
+			"description": "Creates 50x Potent Pherliac Pods that releases powerful pheromones to attract the Infested.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/SummonNpcItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/InfestedBaitBall",
+			"name": "PHERLIAC PODS",
+			"description": "Creates 50x Pherliac Pods that releases powerful pheromones to attract the Infested.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/SummonNpcItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/HunterTool",
+			"name": "KINETIC SIPHON TRAP",
+			"description": "Specialized trap for attracting and slowing the movement of synthesis targets.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/GoldSpectre",
+			"name": "FORCE SPECTER",
+			"description": "A replicant cloned from a Warframe which can be deployed to assist Tenno on their missions.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/SpectreBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/FomorianNegator",
+			"name": "FOMORIAN DISRUPTOR",
+			"description": "When activated, it disrupts a Fomorian core's Omega energy field, making it vulnerable. Also shields Tenno from Omega radiation.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/FireWorksSingle",
+			"name": "STARBURST",
+			"description": "Celebrate the holiday with fireworks! Light up the sky with this single use consumable item.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/FireWorksCrate",
+			"name": "GRAND FINALE",
+			"description": "Want a more spectacular fireworks display to show your patriotism? Celebrate in style with this single use consumable item.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/CreditChipSmall",
+			"name": "HUMBLE VOID OFFERING",
+			"description": "Give unto The Void 1,000 credits.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/CreditChipMedium",
+			"name": "FAITHFUL VOID OFFERING",
+			"description": "Give unto The Void 10,000 credits.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/CreditChipSmall"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/CreditChipLarge",
+			"name": "PASSIONATE VOID OFFERING",
+			"description": "Give unto The Void a generous 100,000 credits.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/CreditChipSmall"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/CorruptedLancerBall",
+			"name": "CORRUPTED LANCER SPECTER",
+			"description": "Deploys a CORRUPTED LANCER EXIMUS unit to fight for you.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/SummonNpcItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/CorruptedBombardBall",
+			"name": "CORRUPTED BOMBARD SPECTER",
+			"description": "Deploys a CORRUPTED BOMBARD unit to fight for you.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/SummonNpcItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/ClemBall",
+			"name": "CLEM CLONE",
+			"description": "Deploys a clone of Clem to fight for you.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/SummonNpcItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/ChargerBall",
+			"name": "CHARGER SPECTER",
+			"description": "Deploys a CHARGER EXIMUS unit to fight for you.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/SummonNpcItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/BronzeSpectre",
+			"name": "VAPOR SPECTER",
+			"description": "A replicant cloned from a Warframe which can be deployed to assist Tenno on their missions.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/SpectreBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/BetaCorruptor",
+			"name": "BETA CORRUPTOR",
+			"description": "Inert on its own this corruptor is highly effective if mixed with its Alpha counterpart. Properly mixed, these will destabilize Fomorian Reactors much faster than their Stable counterparts. This volatile item cannot be simultaneously equipped with Alpha Corruptors. Recommended for Tenno operating as a team.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/Corruptor"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/BaroFireWorksCrate",
+			"name": "KI'TEER FIREWORKS",
+			"description": "A bombastic symphony of color.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/AssassinBaitC",
+			"name": "GRUSTRAG THREE BEACON",
+			"description": "Lures the Grustrag Three out of hiding. One-time use gear item that can only be used in locations where the assassins would normally appear.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/AssassinBaitB",
+			"name": "ZANUKA HUNTER BEACON",
+			"description": "Lures the Zanuka Hunter out of hiding. One-time use gear item that can only be used in locations where the assassin would normally appear.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/AssassinBait",
+			"name": "STALKER BEACON",
+			"description": "Lures the Stalker out of hiding. One-time use gear item that can only be used in locations where the assassin would normally appear.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/AncientHealerBall",
+			"name": "ANCIENT HEALER SPECTER",
+			"description": "Deploys an ANCIENT HEALER EXIMUS unit to fight for you.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/SummonNpcItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/AlphaCorruptor",
+			"name": "ALPHA CORRUPTOR",
+			"description": "Inert on its own this corruptor is highly effective if mixed with its Beta counterpart. Properly mixed, these will destabilize Fomorian Reactors much faster than their Stable counterparts. This volatile item cannot be simultaneously equipped with Beta Corruptors. Recommended for Tenno operating as a team.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/Corruptor"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/Toxins/SoloRareAntitoxin",
+			"name": "VERMILLION ANTITOXIN",
+			"description": "This is an extremely effective antitoxin.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/Toxins/AntitoxinBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/Toxins/RareAntitoxin",
+			"name": "LAPIS ANTITOXIN",
+			"description": "This is an extremely effective antitoxin.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/Toxins/AntitoxinBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/Toxins/NightUnCommonAntitoxin",
+			"name": "TOPAZ ANTITOXIN",
+			"description": "This is a moderately effective antitoxin.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/Toxins/AntitoxinBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/Toxins/NightCommonAntitoxin",
+			"name": "AMETHYST ANTITOXIN",
+			"description": "This is a mildly effective antitoxin.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/Toxins/AntitoxinBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/Toxins/DayUnCommonAntitoxin",
+			"name": "CITRINE ANTITOXIN",
+			"description": "This is a moderately effective antitoxin.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/Toxins/AntitoxinBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/Toxins/DayCommonAntitoxin",
+			"name": "BERYL ANTITOXIN",
+			"description": "This is a mildly effective antitoxin.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/Toxins/AntitoxinBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/Synthetics/FlareRed",
+			"name": "FOSFOR RAHD",
+			"description": "Launch a bright red flare that significantly increases Affinity Range while active.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/Synthetics/FlareBlue",
+			"name": "FOSFOR BLAU",
+			"description": "Launch a bright blue flare that significantly increases Affinity Range while active.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/NpcBuffs/SpeedBuffArmorDebuff",
+			"name": "ADRENAL STIM",
+			"description": "Elevates adrenaline levels to enable faster movement while increasing sensitivity to damage.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/NpcBuffs/NpcBuff"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/NpcBuffs/ReviveBuff",
+			"name": "CLOTRA STIM",
+			"description": "Revives a target that is bleeding out, and provides a bonus revive to any allies in range.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/NpcBuffs/NpcBuff"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/NpcBuffs/CloakingBuff",
+			"name": "REFRACT STIM",
+			"description": "Coats the target in a film that refracts light, allowing undetected movement.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/NpcBuffs/NpcBuff"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/NpcBuffs/ArmorBuffSpeedDebuff",
+			"name": "CALCIFIN STIM",
+			"description": "Hardens skin, fortifying against damage while restricting movement.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/NpcBuffs/NpcBuff"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/FishingBoosts/SoftTouch",
+			"name": "PHAROMA",
+			"description": "A compound that relaxes nearby fish.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/FishingBoosts/BaseDyeConsumable"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/FishingBoosts/AnglerVision",
+			"name": "LUMINOUS DYE",
+			"description": "Dyes the waters with a compound that sticks to fish passing through it, making them easier to see from the shore.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Restoratives/Consumable/FishingBoosts/BaseDyeConsumable"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/Eidolon/InfestedEventIngredient",
+			"name": "EIDOLON PHYLAXIS",
+			"description": "Sentient immunity to the Infestation is exploited with this refined phylaxis. Formulated specifically to combat Infested boils.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Restoratives/Consumable/Eidolon/InfestedEventClanIngredient",
+			"name": "INFESTED CATALYST",
+			"description": "This refined toxin catalyst has been formulated to reinforce the Thrax Toxin and maximize damage to the Infested boil.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Game/Restorative"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/FishBait/NightRareFishBaitBItem",
+			"name": "CUTHOL BAIT",
+			"description": "This bait is comprised of materials that are known to attract Cuthols, a fish found only in pond hotspots during the night.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/FishBait/BaseFishBait"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/FishBait/NightRareFishBaitAItem",
+			"name": "NORG BAIT",
+			"description": "This bait is comprised of materials that are known to attract Norg, a fish found only in lake hotspots during the night.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/FishBait/BaseFishBait"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/FishBait/NightLegendaryFishBaitItem",
+			"name": "GLAPPID BAIT",
+			"description": "This bait is comprised of exotic materials that are known to attract Glappid, an elusive fish found only in ocean hotspots during the night.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/FishBait/BaseFishBait"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/FishBait/GenericFishBait",
+			"name": "PEPPERED BAIT",
+			"description": "This bait attracts fish that are active during the day.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/FishBait/BaseFishBait"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/FishBait/BothUncommonFishBaitItem",
+			"name": "TWILIGHT BAIT",
+			"description": "This bait attracts predatory fish that are active in either day or night.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/FishBait/BaseFishBait"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/FishBait/BothRareFishBaitAItem",
+			"name": "MURKRAY BAIT",
+			"description": "This bait is comprised of materials that are known to attract Murkrays, a fish found only in ocean hotspots during both day and night.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/FishBait/BaseFishBait"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/FishBait/Venus/PondContaminantTierB",
+			"name": "TROMYZON BAIT",
+			"description": "This bait is synthesized from long-chain LS-74 compounds that are known to attract Tromyzon, a Servofish found in pond hotspots during cool weather.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/FishBait/Venus/BaseContaminant"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/FishBait/Venus/PondContaminantTierA",
+			"name": "NARROW-SPECTRUM BAIT",
+			"description": "This endochlor/dionium melange attracts both Recasters and Eye-Eyes, Servofish found in ponds. The Eye-Eye shows up during warm weather and Recaster shows up at Hot Spots during cool weather.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/FishBait/Venus/BaseContaminant"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/FishBait/Venus/LakeContaminantTierB",
+			"name": "LONGWINDER BAIT",
+			"description": "This bait is synthesized from beryzene that is known to attract Longwinders, a Servofish found in lake hotspots during warm weather.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/FishBait/Venus/BaseContaminant"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/FishBait/Venus/LakeContaminantTierA",
+			"name": "KRILLER BAIT",
+			"description": "This bait is synthesized from Methacalcene-1 that is known to attract Krillers, a Servofish found in lakes during warm weather.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/FishBait/Venus/BaseContaminant"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/FishBait/Venus/GenericContaminant",
+			"name": "BROAD-SPECTRUM BAIT",
+			"description": "A simple cocktail of short-chain polymers and contaminants. Easily detected by rudimentary Servofish under all conditions, but ignored by more specialized models. Good for Sapcaddies, Tinks and Brickies.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/FishBait/Venus/BaseContaminant"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/FishBait/Venus/CaveContaminantTierC",
+			"name": "SYNATHID BAIT",
+			"description": "This bait is synthesized from specialized A-disulphex-A compounds that are known to attract Synathid, a legendarily rare Servofish found only in cave hotspots.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/FishBait/Venus/BaseContaminant"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/FishBait/Venus/CaveContaminantTierB",
+			"name": "CHARAMOTE BAIT",
+			"description": "This bait is synthesized from complex hexophenol that is known to attract Charamotes, a Servofish found in cave hotspots.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/FishBait/Venus/BaseContaminant"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/FishBait/Venus/CaveContaminantTierA",
+			"name": "MIREWINDER BAIT",
+			"description": "This bait is comprised of aromatic tetraxin that is known to attract Mirewinders, a Servofish found in cave pools.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/FishBait/Venus/BaseContaminant"
+		}
+	]
+}

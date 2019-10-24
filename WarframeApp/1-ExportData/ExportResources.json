@@ -1,0 +1,3296 @@
+{
+	"ExportResources": [{
+			"uniqueName": "/Lotus/Types/Game/CatbrowPet/CatbrowGeneticSignature",
+			"name": "KAVAT GENETIC CODE",
+			"description": "Contains the genetic code sequence of a Kavat.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/KubrowPet/Eggs/KubrowEgg",
+			"name": "KUBROW EGG",
+			"description": "This egg is used to transplant the genetic code of a Kubrow onto a Kubrow clone.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Game/KubrowPet/Eggs/KubrowPetEggItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/KubrowPet/BlankTraitPrint",
+			"name": "GENETIC CODE TEMPLATE",
+			"description": "Copies the dominant genes of a pet onto the template. \r
+			This can then be used to increase the chances that traits from the original pet will carry across to a newborn clone.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/KubrowPet/EggHatcher",
+			"name": "INCUBATOR POWER CORE",
+			"description": "This device facilitates the growth of a Kubrow clone, from birth to puppyhood.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/KubrowPet/KubrowPetCollarItem",
+			"name": "NAI-ZHEN KUBROW COLLAR",
+			"description": "Records the genetic memory and DNA sequence of a Kubrow, allowing it to be reconstructed in the Incubator.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/KubrowPet/KubrowPetFood",
+			"name": "DNA STABILIZERS",
+			"description": "Contains 6 DNA Stabilizers to maintain the health of a Kubrow or Kavat.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/SpectreArmies/BronzeSpectreArmy",
+			"name": "VAPOR SPECTER REGIMENT",
+			"description": "An army composed of vapor-level Specter clones to be used in defense of the clan's Solar Rail. This Specter army will persist for one conflict.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/SpectreArmyItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/SpectreArmies/GoldSpectreArmy",
+			"name": "FORCE SPECTER REGIMENT",
+			"description": "An army composed of force-level Specter clones to be used in defense of the clan's Solar Rail. This Specter army will persist for three conflicts.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/SpectreArmyItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/SpectreArmies/PlatinumSpectreArmy",
+			"name": "COSMIC SPECTER REGIMENT",
+			"description": "An army composed of cosmic-level Specter clones to be used in defense of the clan's Solar Rail. This Specter army will persist for four conflicts.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/SpectreArmyItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Game/SpectreArmies/SilverSpectreArmy",
+			"name": "PHASE SPECTER REGIMENT",
+			"description": "An army composed of phase-level Specter clones to be used in defense of the clan's Solar Rail. This Specter army will persist for two conflicts.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Game/SpectreArmyItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/LephantisShardItem",
+			"name": "HEMOCYTE CYSTOLITH",
+			"description": "Torn from the bile duct of a fallen Hemocyte.",
+			"longDescription": "Torn from the bile duct of a fallen Hemocyte.",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardBaseItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardBrilliantItem",
+			"name": "BRILLIANT EIDOLON SHARD",
+			"description": "Rare shard gained from capturing the Sentients roaming the Plains of Eidolon. Use it to gain Focus or to unbind Way-bound focus nodes.",
+			"longDescription": "One of the rarest, most valuable Eidolon shards. Flawless.",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardBaseItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardBrilliantTierTwoItem",
+			"name": "RADIANT EIDOLON SHARD",
+			"description": "Rare shard gained from capturing the Sentients roaming the Plains of Eidolon. Use it to gain Focus or to unbind Way-bound focus nodes.",
+			"longDescription": "A shard of unmatched beauty and power.",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardBrilliantItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardCommonItem",
+			"name": "EIDOLON SHARD",
+			"description": "Shard gained from the sentients roaming the Plains of Eidolon.",
+			"longDescription": "The most prized part of an Eidolon. Jewelry created from an Eidolon shard is most prized in Cetus.",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardBaseItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardSynthesizedItem",
+			"name": "SYNTHETIC EIDOLON SHARD",
+			"description": "",
+			"longDescription": "An Eidolon Shard synthesized from Sanctuary study.",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardBaseItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/BirdOfPreyPartItem",
+			"name": "CONDROC WING",
+			"description": "The talon on a condroc's wing is sharp enough to tear through bone.\r
+			\r
+			Location: Plains of Eidolon",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/CetusWispItem",
+			"name": "CETUS WISP",
+			"description": "Strange stone lifeforms that call the Plains home. They are a rare find, clustering together, floating above a patch of ground they've taken an inexplicable interest in. They are an enigma.\r
+			\r
+			Location: Plains of Eidolon",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/EidolonFruitItem",
+			"name": "MAPRICO",
+			"description": "This hardy fruit is thick-skinned to withstand harsh conditions, concealing a mouthful of sweet pulp within.\r
+			\r
+			Location: Plains of Eidolon",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/ForestRodentPartItem",
+			"name": "KUAKA SPINAL CLAW",
+			"description": "The sinew from the Kuaka's spinal claws can be tanned to make resilient and flexible leather.\r
+			\r
+			Location: Plains of Eidolon",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/GrokdrulItem",
+			"name": "GROKDRUL",
+			"description": "A noxious mix of polysaccharides and long-chain polymers, Grokdrul is a standard chemical used in Grineer manufacturing.\r
+			\r
+			Location: Plains of Eidolon",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/IraditeItem",
+			"name": "IRADITE",
+			"description": "A valuable mineral found on the Plains.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/NistlebrushItem",
+			"name": "NISTLEPOD",
+			"description": "Used by the Nistlebrush to trap and kill prey.\r
+			\r
+			Location: Plains of Eidolon",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/QuillsDogTag",
+			"name": "INTACT SENTIENT CORE",
+			"description": "An integral part of Vomvalysts and Teralysts, the exact function of this... device? Organ? is uncertain.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/DogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/QuillsRareDogTag",
+			"name": "FLAWLESS SENTIENT CORE",
+			"description": "An integral part of Vomvalysts and Teralysts, the exact function of this... device? Organ? is uncertain.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/DogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Eidolon/Resources/QuillsUncommonDogTag",
+			"name": "EXCEPTIONAL SENTIENT CORE",
+			"description": "An integral part of Vomvalysts and Teralysts, the exact function of this... device? Organ? is uncertain.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/DogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidCamperItem",
+			"name": "CRISMA TOROID",
+			"description": "A device of undetermined function and origin. Prized by Vox Solaris and the Quills.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidCamperTerraItem",
+			"name": "LAZULITE TOROID",
+			"description": "A device of undetermined function and origin. Prized by Vox Solaris and the Quills.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidHungerItem",
+			"name": "CALDA TOROID",
+			"description": "A device of undetermined function and origin. Prized by Vox Solaris and the Quills.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidMicroidItem",
+			"name": "VEGA TOROID",
+			"description": "A device of undetermined function and origin. Prized by Vox Solaris and the Quills.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidWraithItem",
+			"name": "SOLA TOROID",
+			"description": "A device of undetermined function and origin. Prized by Vox Solaris and the Quills.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CoolantItem",
+			"name": "THERMAL SLUDGE",
+			"description": "A by-product from the Weeping Towers terraforming processes.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetAItem",
+			"name": "GYROMAG SYSTEMS",
+			"description": "A modular component that regulates latitude and altitude in various Corpus systems.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetBItem",
+			"name": "ATMO SYSTEMS",
+			"description": "A modular component that compensates for the multitude of atmospheric conditions encountered in the Origin System.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetCItem",
+			"name": "REPELLER SYSTEMS",
+			"description": "Anti-gravity system that allows massively heavy objects to be manipulated by a single user.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/FungusHeartItem",
+			"name": "MYTOCARDIA SPORE",
+			"description": "A fungal body prized for its varied uses.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/OrokinArtifactItem",
+			"name": "FRIDGER",
+			"description": "These ancient devices have been placed in subterranean caverns where they create localized pockets of intense cold.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/OrokinSensorItem",
+			"name": "OROKIN MONITOR",
+			"description": "These Orokin devices emerge when the floating glaciers impact on the surface of Venus. Their purpose is unknown.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusCoconutItem",
+			"name": "GORGARICUS SPORE",
+			"description": "The reproductive spore of the giant Vallis fungi is highly coveted for the complex chemical compounds it contains.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusMushroomItem",
+			"name": "FROSTCAP",
+			"description": "Engineered by the Orokin to convert airborne chemicals into breathable air.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Gameplay/Venus/Resources/VenusTreeItem",
+			"name": "TEPA NODULE",
+			"description": "The irradescent nodules on these plants glow brightly in cold environments.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothCommonFishAPartItem",
+			"name": "CHARC ELECTROPLAX",
+			"description": "Harvested by the Ostron as a catalyst used in their synthetics.\r
+			\r
+			Location: Plains of Eidolon",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothCommonFishBPartItem",
+			"name": "GOOPOLLA SPLEEN",
+			"description": "Used in Ostron remedies to purify toxins.\r
+			\r
+			Location: Fisher Hai-Luk in Cetus",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothRareFishAPartItem",
+			"name": "MURKRAY LIVER",
+			"description": "An ingredient used in Ostron cooking and medicines.\r
+			\r
+			Location: Fisher Hai-Luk in Cetus",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothUncommonFishAPartItem",
+			"name": "SHARRAC TEETH",
+			"description": "These will often adorn ceremonial garb or as a reagent for synthetics.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/BothUncommonFishBPartItem",
+			"name": "KARKINA ANTENNA",
+			"description": "Ground into a powder this substance can make fires burn hotter for a brief amount of time.\r
+			\r
+			Location: Fisher Hai-Luk in Cetus",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/DayCommonFishAPartItem",
+			"name": "MAWFISH BONES",
+			"description": "The bones of the Mawfish are carved by the Ostron to produce ornaments and tools.\r
+			\r
+			Location: Fisher Hai-Luk in Cetus",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/DayCommonFishBPartItem",
+			"name": "KHUT-KHUT VENOM SAC",
+			"description": "The poison is used to cure leather and as a reagent to produce an embalming fluid.\r
+			\r
+			Location: Fisher Hai-Luk in Cetus",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/DayCommonFishCPartItem",
+			"name": "YOGWUN STOMACH",
+			"description": "Once cleaned and tanned this organ can be turned into a durable leather.\r
+			\r
+			Location: Fisher Hai-Luk in Cetus",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/DayUncommonFishAPartItem",
+			"name": "TRALOK EYES",
+			"description": "The Ostron boil these into a jelly which forms a strong adhesive when it dries.\r
+			\r
+			Location: Fisher Hai-Luk in Cetus",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/DayUncommonFishBPartItem",
+			"name": "MORTUS HORN",
+			"description": "The horn of a Mortus Lungfish is ground down into a powder and used by the Ostrons in herbal remedies.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/EidolonFishMeatItem",
+			"name": "FISH MEAT",
+			"description": "Used as a source of food and to create bait for predatory fish.",
+			"longDescription": "Used as a source of food and to create bait for predatory fish.",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/EidolonFishOilItem",
+			"name": "FISH OIL",
+			"description": "Used to create absolvents that purify gems.",
+			"longDescription": "Used to create absolvents that purify gems.",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/EidolonFishScalesItem",
+			"name": "FISH SCALES",
+			"description": "A material used in tailoring clothes and cultivating synthetics.",
+			"longDescription": "A material used in tailoring clothes and cultivating synthetics.",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/NightLegendaryFishAPartItem",
+			"name": "SERAM BEETLE SHELL",
+			"description": "This thick shell is used by Ostrons to manufacture tools and weapons.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/NightRareFishAPartItem",
+			"name": "NORG BRAIN",
+			"description": "An Ostron delicacy.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/FishParts/NightRareFishBPartItem",
+			"name": "CUTHOL TENDRILS",
+			"description": "Ostrons extract the toxin and apply it to their weapons when hunting animals.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/BothCommonFishAItem",
+			"name": "CHARC EEL",
+			"description": "Discharges electricity from luminous glands along its flanks to stun its prey.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/CommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/BothCommonFishAItemLarge",
+			"name": "CHARC EEL",
+			"description": "Discharges electricity from luminous glands along its flanks to stun its prey.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/BothCommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/BothCommonFishAItemMedium",
+			"name": "CHARC EEL",
+			"description": "Discharges electricity from luminous glands along its flanks to stun its prey.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/BothCommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/BothCommonFishBItem",
+			"name": "GOOPOLLA",
+			"description": "A predatory fish that is attracted to the scent of blood.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/CommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/BothCommonFishBItemLarge",
+			"name": "GOOPOLLA",
+			"description": "A predatory fish that is attracted to the scent of blood.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/BothCommonFishBItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/BothCommonFishBItemMedium",
+			"name": "GOOPOLLA",
+			"description": "A predatory fish that is attracted to the scent of blood.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/BothCommonFishBItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/BothRareFishAItem",
+			"name": "MURKRAY",
+			"description": "A cunning hunter that hides within the mud at the bottom of the ocean and ambushes passing prey.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/RareFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/BothRareFishAItemLarge",
+			"name": "MURKRAY",
+			"description": "A cunning hunter that hides within the mud at the bottom of the ocean and ambushes passing prey.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/BothRareFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/BothRareFishAItemMedium",
+			"name": "MURKRAY",
+			"description": "A cunning hunter that hides within the mud at the bottom of the ocean and ambushes passing prey.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/BothRareFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/BothUncommonFishAItem",
+			"name": "SHARRAC",
+			"description": "While rarely venturing from the deepest waters of the plains, the Sharrac is a fearsome predator who will prey on unwary Ostrons swimming alone.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/UncommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/BothUncommonFishAItemLarge",
+			"name": "SHARRAC",
+			"description": "While rarely venturing from the deepest waters of the plains, the Sharrac is a fearsome predator who will prey on unwary Ostrons swimming alone.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/BothUncommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/BothUncommonFishAItemMedium",
+			"name": "SHARRAC",
+			"description": "While rarely venturing from the deepest waters of the plains, the Sharrac is a fearsome predator who will prey on unwary Ostrons swimming alone.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/BothUncommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/BothUncommonFishBItem",
+			"name": "KARKINA",
+			"description": "A crustacean that hunts during the twilight hours.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/UncommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/BothUncommonFishBItemLarge",
+			"name": "KARKINA",
+			"description": "A crustacean that hunts during the twilight hours.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/BothUncommonFishBItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/BothUncommonFishBItemMedium",
+			"name": "KARKINA",
+			"description": "A crustacean that hunts during the twilight hours.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/BothUncommonFishBItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/DayCommonFishAItem",
+			"name": "MAWFISH",
+			"description": "Its gaping maw allows it to scoop up smaller fish as it swims by them.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/CommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/DayCommonFishAItemLarge",
+			"name": "MAWFISH",
+			"description": "Its gaping maw allows it to scoop up smaller fish as it swims by them.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/DayCommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/DayCommonFishAItemMedium",
+			"name": "MAWFISH",
+			"description": "Its gaping maw allows it to scoop up smaller fish as it swims by them.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/DayCommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/DayCommonFishBItem",
+			"name": "KHUT-KHUT",
+			"description": "A poisonous fish protected by a hardened carapace around its skull.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/CommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/DayCommonFishBItemLarge",
+			"name": "KHUT-KHUT",
+			"description": "A poisonous fish protected by a hardened carapace around its skull.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/DayCommonFishBItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/DayCommonFishBItemMedium",
+			"name": "KHUT-KHUT",
+			"description": "A poisonous fish protected by a hardened carapace around its skull.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/DayCommonFishBItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/DayCommonFishCItem",
+			"name": "YOGWUN",
+			"description": "This slow fish meanders through the waters and is often preyed upon by larger predators.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/CommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/DayCommonFishCItemLarge",
+			"name": "YOGWUN",
+			"description": "This slow fish meanders through the waters and is often preyed upon by larger predators.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/DayCommonFishCItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/DayCommonFishCItemMedium",
+			"name": "YOGWUN",
+			"description": "This slow fish meanders through the waters and is often preyed upon by larger predators.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/DayCommonFishCItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/DayUncommonFishAItem",
+			"name": "TRALOK",
+			"description": "Strong, predatory fish with eyes that can pierce the darkest shadows.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/UncommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/DayUncommonFishAItemLarge",
+			"name": "TRALOK",
+			"description": "Strong, predatory fish with eyes that can pierce the darkest shadows.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/DayUncommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/DayUncommonFishAItemMedium",
+			"name": "TRALOK",
+			"description": "Strong, predatory fish with eyes that can pierce the darkest shadows.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/DayUncommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/DayUncommonFishBItem",
+			"name": "MORTUS LUNGFISH",
+			"description": "Displays blood-spattered pattern on its scales and has its ribs exposed through open cavities along both flanks. When predators approach it lies still at the bottom of the sand banks, disguised as a carcass in hopes of being ignored.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/UncommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/DayUncommonFishBItemLarge",
+			"name": "MORTUS LUNGFISH",
+			"description": "Displays blood-spattered pattern on its scales and has its ribs exposed through open cavities along both flanks. When predators approach it lies still at the bottom of the sand banks, disguised as a carcass in hopes of being ignored.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/DayUncommonFishBItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/DayUncommonFishBItemMedium",
+			"name": "MORTUS LUNGFISH",
+			"description": "Displays blood-spattered pattern on its scales and has its ribs exposed through open cavities along both flanks. When predators approach it lies still at the bottom of the sand banks, disguised as a carcass in hopes of being ignored.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/DayUncommonFishBItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/GrineerBootItem",
+			"name": "BOOT",
+			"description": "Synthetic fibers and a molded foam insole were the basis for what was once a robust and comfortable combat boot. Now, it's a home for tiny aquatic organisms.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/Fish/FishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/NightLegendaryFishAItem",
+			"name": "GLAPPID",
+			"description": "The Glappid is a scavenger that feasts on the remains of dead fish. It has formed a symbiotic bond with the Seram Beetle which extracts and feeds upon any toxins ingested by the Glappid.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/LegendaryFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/NightLegendaryFishAItemLarge",
+			"name": "GLAPPID",
+			"description": "The Glappid is a scavenger that feasts on the remains of dead fish. It has formed a symbiotic bond with the Seram Beetle which extracts and feeds upon any toxins ingested by the Glappid.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/NightLegendaryFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/NightLegendaryFishAItemMedium",
+			"name": "GLAPPID",
+			"description": "The Glappid is a scavenger that feasts on the remains of dead fish. It has formed a symbiotic bond with the Seram Beetle which extracts and feeds upon any toxins ingested by the Glappid.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/NightLegendaryFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/NightRareFishAItem",
+			"name": "NORG",
+			"description": "This fish inhabits the shallows and feeds of crabs and other small crustaceans. When threatened it forces air into its brain to give it the impression of being much bigger than it normally is.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/RareFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/NightRareFishAItemLarge",
+			"name": "NORG",
+			"description": "This fish inhabits the shallows and feeds of crabs and other small crustaceans. When threatened it forces air into its brain to give it the impression of being much bigger than it normally is.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/NightRareFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/NightRareFishAItemMedium",
+			"name": "NORG",
+			"description": "This fish inhabits the shallows and feeds of crabs and other small crustaceans. When threatened it forces air into its brain to give it the impression of being much bigger than it normally is.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/NightRareFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/NightRareFishBItem",
+			"name": "CUTHOL",
+			"description": "A grotesque crustacean that produces a potent, paralyzing toxin from its tentacles.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/RareFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/NightRareFishBItemLarge",
+			"name": "CUTHOL",
+			"description": "A grotesque crustacean that produces a potent, paralyzing toxin from its tentacles.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/NightRareFishBItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Eidolon/NightRareFishBItemMedium",
+			"name": "CUTHOL",
+			"description": "A grotesque crustacean that produces a potent, paralyzing toxin from its tentacles.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Eidolon/NightRareFishBItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishAnoscopicSensorItem",
+			"name": "ANOSCOPIC SENSOR",
+			"description": "A small camera that records visual data with extremely high definition.\r
+			\r
+			Acquired by disassembling Echowinder servofish.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishExaBrainItem",
+			"name": "EXA BRAIN",
+			"description": "A small, electronic brain capable of processing a billion giga-threads per second.\r
+			\r
+			Acquired by disassembling Scrubber servofish.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishMuonBatteryItem",
+			"name": "MUON BATTERY",
+			"description": "A small, atomic power source.\r
+			\r
+			Acquired by disassembling Brickie servofish.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishParralelBiodeItem",
+			"name": "PARALLEL BIODE",
+			"description": "Controls the electrical flow throughout the circuitry within robotic organisms.\r
+			\r
+			Acquired by disassembling Mirewinder servofish.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishRotobladeItem",
+			"name": "ROTOBLADE",
+			"description": "A machine element used to propel robotic organisms through coolant.\r
+			\r
+			Acquired by disassembling Eye-Eye servofish.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishThermalLaserItem",
+			"name": "THERMAL LASER",
+			"description": "A weapon that discharges lasers over short distances.\r
+			\r
+			Acquired by disassembling Kriller servofish.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/CorpusFishVenedoCaseItem",
+			"name": "VENEDO CASE",
+			"description": "A strong, metallic case that is resistant to fluctuations in environmental temperature.\r
+			\r
+			Acquired by disassembling Sapcaddy servofish.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/GenericFishScrapItem",
+			"name": "SCRAP",
+			"description": "A sample of sprockets, gyros and wires.\r
+			\r
+			Acquired by disassembling any servofish.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/OrokinFishEcosynthAnalyzerItem",
+			"name": "ECOSYNTH ANALYZER",
+			"description": "A processing unit that efficiently monitors environmental data.\r
+			\r
+			Acquired by disassembling Synathid servofish.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/OrokinFishEntroplasmaItem",
+			"name": "ENTROPLASMA",
+			"description": "A solvent that reconstitutes waste product from the Weeping Towers into degenerated matter.\r
+			\r
+			Acquired by disassembling Tromyzon servofish.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/OrokinFishSaganModuleItem",
+			"name": "SAGAN MODULE",
+			"description": "A device used to reconstruct degenerated matter into Orokin bio-material.\r
+			\r
+			Acquired by disassembling Charamote servofish.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/SolarisFishDissipatorCoilItem",
+			"name": "DISSIPATOR COIL",
+			"description": "Discharges excess heat and energy through the casing.\r
+			\r
+			Acquired by disassembling Tink servofish.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/SolarisFishLatheCoogulantItem",
+			"name": "LATHE COAGULANT",
+			"description": "A liquid that mixes with coolant fluid to produce a resilient gel that repairs leaks.\r
+			\r
+			Acquired by disassembling Longwinder servofish.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/FishParts/SolarisFishNeuralRelayItem",
+			"name": "NEURAL RELAY",
+			"description": "Interprets signals from other mechanical organisms.\r
+			\r
+			Acquired by disassembling Recaster servofish.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/FishPartItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusBothUncommonFishAItem",
+			"name": "MIREWINDER",
+			"description": "Surveys the water for impurities. It can be found in cave pools on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/UncommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusBothUncommonFishALargeItem",
+			"name": "MIREWINDER",
+			"description": "Surveys the water for impurities. It can be found in cave pools on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CorpusBothUncommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusBothUncommonFishAMediumItem",
+			"name": "MIREWINDER",
+			"description": "Surveys the water for impurities. It can be found in cave pools on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CorpusBothUncommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusCoolCommonFishAItem",
+			"name": "SAPCADDY",
+			"description": "Collects fluid samples in the aqua system for the Research Station. It can be found in lakes around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusCoolCommonFishALargeItem",
+			"name": "SAPCADDY",
+			"description": "Collects fluid samples in the aqua system for the Research Station. It can be found in lakes around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CorpusCoolCommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusCoolCommonFishAMediumItem",
+			"name": "SAPCADDY",
+			"description": "Collects fluid samples in the aqua system for the Research Station. It can be found in lakes around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CorpusCoolCommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusCoolUncommonFishAItem",
+			"name": "EYE-EYE",
+			"description": "A surveillance drone that monitors any activity that disturbs the waters. It can be found in ponds around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/UncommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusCoolUncommonFishALargeItem",
+			"name": "EYE-EYE",
+			"description": "A surveillance drone that monitors any activity that disturbs the waters. It can be found in ponds around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CorpusCoolUncommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusCoolUncommonFishAMediumItem",
+			"name": "EYE-EYE",
+			"description": "A surveillance drone that monitors any activity that disturbs the waters. It can be found in ponds around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CorpusCoolUncommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusWarmCommonFishAItem",
+			"name": "ECHOWINDER",
+			"description": "Used to record visual data in the aqua systems and transmits the telemetrics to the Research Station. It can be found in the lake on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusWarmCommonFishALargeItem",
+			"name": "ECHOWINDER",
+			"description": "Used to record visual data in the aqua systems and transmits the telemetrics to the Research Station. It can be found in the lake on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CorpusWarmCommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusWarmCommonFishAMediumItem",
+			"name": "ECHOWINDER",
+			"description": "Used to record visual data in the aqua systems and transmits the telemetrics to the Research Station. It can be found in the lake on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CorpusWarmCommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusWarmCommonFishBItem",
+			"name": "BRICKIE",
+			"description": "Developed to perform remote construction and maintenance routines. It can be found in ponds around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusWarmCommonFishBLargeItem",
+			"name": "BRICKIE",
+			"description": "Developed to perform remote construction and maintenance routines. It can be found in ponds around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CorpusWarmCommonFishBItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusWarmCommonFishBMediumItem",
+			"name": "BRICKIE",
+			"description": "Developed to perform remote construction and maintenance routines. It can be found in ponds around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CorpusWarmCommonFishBItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusWarmUncommonFishAItem",
+			"name": "KRILLER",
+			"description": "Identifies organic threats to Corpus operations in the Aqua Systems and eliminates them. It can be found in the lake on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/UncommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusWarmUncommonFishALargeItem",
+			"name": "KRILLER",
+			"description": "Identifies organic threats to Corpus operations in the Aqua Systems and eliminates them. It can be found in the lake on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CorpusWarmUncommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/CorpusWarmUncommonFishAMediumItem",
+			"name": "KRILLER",
+			"description": "Identifies organic threats to Corpus operations in the Aqua Systems and eliminates them. It can be found in the lake on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CorpusWarmUncommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/OrokinBothLegendaryFishAItem",
+			"name": "SYNATHID",
+			"description": "Monitors environmental fluctuations. It can be found in the cave pools on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/LegendaryFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/OrokinBothLegendaryFishALargeItem",
+			"name": "SYNATHID",
+			"description": "Monitors environmental fluctuations. It can be found in the cave pools on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/OrokinBothLegendaryFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/OrokinBothLegendaryFishAMediumItem",
+			"name": "SYNATHID",
+			"description": "Monitors environmental fluctuations. It can be found in the cave pools on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/OrokinBothLegendaryFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/OrokinBothRareFishAItem",
+			"name": "CHARAMOTE",
+			"description": "Its primary function is to reconstruct the bio-material used to regenerate Orokin structures. It can be found in cave pools on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/RareFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/OrokinBothRareFishALargeItem",
+			"name": "CHARAMOTE",
+			"description": "Its primary function is to reconstruct the bio-material used to regenerate Orokin structures. It can be found in cave pools on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/OrokinBothRareFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/OrokinBothRareFishAMediumItem",
+			"name": "CHARAMOTE",
+			"description": "Its primary function is to reconstruct the bio-material used to regenerate Orokin structures. It can be found in cave pools on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/OrokinBothRareFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/OrokinCoolRareFishAItem",
+			"name": "TROMYZON",
+			"description": "Programmed to break down chemical byproducts leaked into the aqua system. It can be found in ponds around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/RareFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/OrokinCoolRareFishALargeItem",
+			"name": "TROMYZON",
+			"description": "Programmed to break down chemical byproducts leaked into the aqua system. It can be found in ponds around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/OrokinCoolRareFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/OrokinCoolRareFishAMediumItem",
+			"name": "TROMYZON",
+			"description": "Programmed to break down chemical byproducts leaked into the aqua system. It can be found in ponds around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/OrokinCoolRareFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/SolarisBothCommonFishAItem",
+			"name": "SCRUBBER",
+			"description": "Analyzes the growth of microbes dwelling in the aqua systems to monitor toxicity levels. It can be found in cave pools on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/SolarisBothCommonFishALargeItem",
+			"name": "SCRUBBER",
+			"description": "Analyzes the growth of microbes dwelling in the aqua systems to monitor toxicity levels. It can be found in cave pools on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/SolarisBothCommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/SolarisBothCommonFishAMediumItem",
+			"name": "SCRUBBER",
+			"description": "Analyzes the growth of microbes dwelling in the aqua systems to monitor toxicity levels. It can be found in cave pools on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/SolarisBothCommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/SolarisCoolCommonFishAItem",
+			"name": "TINK",
+			"description": "Repairs robotics that have broken down in the aqua systems. It can be found in ponds around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/CommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/SolarisCoolCommonFishALargeItem",
+			"name": "TINK",
+			"description": "Repairs robotics that have broken down in the aqua systems. It can be found in ponds around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/SolarisCoolCommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/SolarisCoolCommonFishAMediumItem",
+			"name": "TINK",
+			"description": "Repairs robotics that have broken down in the aqua systems. It can be found in ponds around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/SolarisCoolCommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/SolarisCoolUncommonFishAItem",
+			"name": "RECASTER",
+			"description": "Facilitates long-distance communication between robotics deployed in the aqua systems. It can be found in the ponds around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/UncommonFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/SolarisCoolUncommonFishALargeItem",
+			"name": "RECASTER",
+			"description": "Facilitates long-distance communication between robotics deployed in the aqua systems. It can be found in the ponds around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/SolarisCoolUncommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/SolarisCoolUncommonFishAMediumItem",
+			"name": "RECASTER",
+			"description": "Facilitates long-distance communication between robotics deployed in the aqua systems. It can be found in the ponds around Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/SolarisCoolUncommonFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/SolarisWarmRareFishAItem",
+			"name": "LONGWINDER",
+			"description": "Repairs leaks and clear blockages within the aqua systems. It can be found in the lake on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/RareFishItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/SolarisWarmRareFishALargeItem",
+			"name": "LONGWINDER",
+			"description": "Repairs leaks and clear blockages within the aqua systems. It can be found in the lake on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/SolarisWarmRareFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Fish/Solaris/SolarisWarmRareFishAMediumItem",
+			"name": "LONGWINDER",
+			"description": "Repairs leaks and clear blockages within the aqua systems. It can be found in the lake on Venus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Fish/Solaris/SolarisWarmRareFishAItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexA",
+			"name": "AYATAN SAH SCULPTURE",
+			"description": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/FusionTreasure"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexB",
+			"name": "AYATAN AYR SCULPTURE",
+			"description": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/FusionTreasure"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexC",
+			"name": "AYATAN ORTA SCULPTURE",
+			"description": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/FusionTreasure"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexD",
+			"name": "AYATAN VAYA SCULPTURE",
+			"description": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/FusionTreasure"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexE",
+			"name": "AYATAN PIV SCULPTURE",
+			"description": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/FusionTreasure"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexF",
+			"name": "AYATAN ANASA SCULPTURE",
+			"description": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/FusionTreasure"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexG",
+			"name": "AYATAN VALANA SCULPTURE",
+			"description": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/FusionTreasure"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemACutAItem",
+			"name": "TEAR AZURITE",
+			"description": "Polished and cut to perfection.\r
+			\r
+			Location: Old Man Suumbaat in Cetus",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemAItem",
+			"name": "AZURITE",
+			"description": "A blue gem layered with impurities.\r
+			\r
+			Location: Plains of Eidolon",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemBCutAItem",
+			"name": "ESHER DEVAR",
+			"description": "Polished and cut to perfection.\r
+			\r
+			Location: Old Man Suumbaat in Cetus",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemBItem",
+			"name": "DEVAR",
+			"description": "A cloudy crystal.\r
+			\r
+			Location: Plains of Eidolon",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreAAlloyAItem",
+			"name": "PYROTIC ALLOY",
+			"description": "Pyrol that has been forged into a stronger metal.\r
+			\r
+			Location: Old Man Suumbaat in Cetus",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreAItem",
+			"name": "PYROL",
+			"description": "A tarnished, brittle metal.\r
+			\r
+			Location: Plains of Eidolon",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreBAlloyBItem",
+			"name": "COPRITE ALLOY",
+			"description": "Coprun that has been forged into a stronger metal.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreBItem",
+			"name": "COPRUN",
+			"description": "A soft, malleable metal.\r
+			\r
+			Location: Plains of Eidolon",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/EidolonGemACutAItem",
+			"name": "RADIAN SENTIRUM",
+			"description": "Polished and cut to perfection.\r
+			\r
+			Location: Old Man Suumbaat in Cetus",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/EidolonGemAItem",
+			"name": "SENTIRUM",
+			"description": "A rare Eidolon Gem, created from the fossilized blood of an ancient Sentient.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/EidolonGemBCutAItem",
+			"name": "HEART NYTH",
+			"description": "Polished and cut to perfection.\r
+			\r
+			Location: Old Man Suumbaat in Cetus",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/EidolonGemBItem",
+			"name": "NYTH",
+			"description": "A rare local Gem, formed when the gas known as Breath of the Eidolon becomes trapped in molten iradite.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/RareGemACutAItem",
+			"name": "STAR CRIMZIAN",
+			"description": "Polished and cut to perfection.\r
+			\r
+			Location: Old Man Suumbaat in Cetus",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/RareGemAItem",
+			"name": "CRIMZIAN",
+			"description": "A blood-red gem.\r
+			\r
+			Location: Plains of Eidolon",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/RareOreAAlloyAItem",
+			"name": "AUROXIUM ALLOY",
+			"description": "Auron that has been forged into a stronger metal.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/RareOreAItem",
+			"name": "AURON",
+			"description": "A brilliant, dense and conductive metal.\r
+			\r
+			Location: Plains of Eidolon",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonGemACutAItem",
+			"name": "MARQUISE VERIDOS",
+			"description": "Polished and cut to perfection.\r
+			\r
+			Location: Old Man Suumbaat in Cetus",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonGemAItem",
+			"name": "VERIDOS",
+			"description": "A highly reflective, green gem.\r
+			\r
+			Location: Plains of Eidolon",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonOreAAlloyAItem",
+			"name": "FERSTEEL ALLOY",
+			"description": "Ferros that has been forged into a stronger metal.\r
+			\r
+			Location: Old Man Suumbaat in Cetus",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonOreAItem",
+			"name": "FERROS",
+			"description": "A resilient metal that is hardened by impurities within.\r
+			\r
+			Location: Plains of Eidolon",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemACutItem",
+			"name": "SMOOTH PHASMIN",
+			"description": "Polished and cut to perfection.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemAItem",
+			"name": "PHASMIN",
+			"description": "An eerily green gem found encased in metallic shards.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemBCutItem",
+			"name": "HEART NOCTRUL",
+			"description": "Polished and cut to perfection.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemBItem",
+			"name": "NOCTRUL",
+			"description": "A black gemstone, with iridescent blue impurities.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreAAlloyItem",
+			"name": "TRAVOCYTE ALLOY",
+			"description": "A compound formed from Travoride.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreAItem",
+			"name": "TRAVORIDE",
+			"description": "A mineral hardened by the crushing pressure of the Venusian atmosphere.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreBAlloyItem",
+			"name": "AXIDROL ALLOY",
+			"description": "A compound formed from Axidite.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreBItem",
+			"name": "AXIDITE",
+			"description": "A sediment that formed from sulfuric rain that became trapped under the ice.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisEidolonGemACutItem",
+			"name": "RADIANT ZODIAN",
+			"description": "Polished and cut to perfection.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisEidolonGemAItem",
+			"name": "ZODIAN",
+			"description": "A blue gem that radiates astral energy.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisEidolonGemBCutItem",
+			"name": "MARQUISE THYST",
+			"description": "Polished and cut to perfection.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisEidolonGemBItem",
+			"name": "THYST",
+			"description": "A beautiful and iridescent red shard.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisRareGemACutItem",
+			"name": "STAR AMARAST",
+			"description": "Polished and cut to perfection.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisRareGemAItem",
+			"name": "AMARAST",
+			"description": "A violet gem that forms from the crystallization of byproducts expelled from the Weeping Towers.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisRareOreAAlloyItem",
+			"name": "HESPAZYM ALLOY",
+			"description": "A compound formed from Hesperon.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisRareOreAItem",
+			"name": "HESPERON",
+			"description": "Clay that strengthens into extremely durable stone when brought to temperatures below zero.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemACutItem",
+			"name": "GOBLITE TEARS",
+			"description": "Polished and cut to perfection.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemAItem",
+			"name": "GOBLITE",
+			"description": "A strange crystal that grows inside the veins of extracted ore.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreAAlloyItem",
+			"name": "VENERDO ALLOY",
+			"description": "A compound formed from Venerol.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreItem",
+			"name": "VENEROL",
+			"description": "A precious metal forged from coolant byproducts.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Gems/GemItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Alertium",
+			"name": "NITAIN EXTRACT",
+			"description": "Each vial is produced by the painstaking expression of billions of rare, ocean-vent dwelling microorganisms.\r
+			\r
+			This resource can be acquired from Nightwave offerings.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/AlloyPlate",
+			"name": "ALLOY PLATE",
+			"description": "Carbon steel plates used to reinforce Grineer armor.\r
+			\r
+			Locations: Venus, Phobos, Ceres, Jupiter, Pluto, and Sedna.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/AlphaCorruptorResource",
+			"name": "ALPHA CORRUPTOR",
+			"description": "Inert on its own this corruptor is highly effective if mixed with its Beta counterpart. Properly mixed, these will destabilize Fomorian Reactors much faster than their Stable counterparts. This volatile item cannot be simultaneously equipped with Beta Corruptors. Recommended for Tenno operating as a team.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/ArchWingNavCode",
+			"name": "OROKIN ARCHIVE",
+			"description": "Archive detailing the locations of hidden Archwing technology",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/ArgonCrystal",
+			"name": "ARGON CRYSTAL",
+			"description": "A Void based radioactive resource that decays every day it is out of the Void.\r
+			\r
+			This resource can be found in the Void.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Beacon",
+			"name": "PROOF FRAGMENT",
+			"description": "One part of a long lost mathematical proof.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/BetaCorruptorResource",
+			"name": "BETA CORRUPTOR",
+			"description": "Inert on its own this corruptor is highly effective if mixed with its Alpha counterpart. Properly mixed, these will destabilize Fomorian Reactors much faster than their Stable counterparts. This volatile item cannot be simultaneously equipped with Alpha Corruptors. Recommended for Tenno operating as a team.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/BossNavCode",
+			"name": "LEPHANTIS NAV COORDINATE",
+			"description": "Coordinate used to locate the Lephantis.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Circuits",
+			"name": "CIRCUITS",
+			"description": "Various electronic components.\r
+			\r
+			Locations: Venus, Ceres, and the Kuva Fortress.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/ClanCreator",
+			"name": "/Lotus/Language/Items/ClanCreator",
+			"description": "/Lotus/Language/Items/ClanCreatorDesc",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/ControlModule",
+			"name": "CONTROL MODULE",
+			"description": "Autonomy processor for Robotics. A Corpus design.\r
+			\r
+			Locations: Europa, Neptune, and the Void.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Cryotic",
+			"name": "CRYOTIC",
+			"description": "Usually found in extreme sub-zero environments, Cryotic instantly freezes anything it contacts.\r
+			\r
+			Locations: Excavation Missions on Venus, Earth, Phobos, Europa, and Neptune.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/DangerRoomKey",
+			"name": "SIMULACRUM ACCESS KEY",
+			"description": "Grants access to the Simulacrum.\r
+			\r
+			In the Simulacrum you can face mimeographs of enemies you have fully researched with the Codex.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/DataFragment",
+			"name": "TETHRA DATA FRAGMENTS",
+			"description": "Intercepted encrypted fragment of Grineer communications.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Eidolonium",
+			"name": "BREATH OF THE EIDOLON",
+			"description": "A gas found solely on the plains of Eidolon, refined to its purest form.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Elitium",
+			"name": "VITUS ESSENCE",
+			"description": "Awarded by the Arbiters of Hexis to few Tenno capable of surviving Arbitration.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Eventium",
+			"name": "SYNTHULA",
+			"description": "Distilled fuel for stims.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Ferrite",
+			"name": "FERRITE",
+			"description": "Alloy pellets used in Grineer manufacturing.\r
+			\r
+			Locations: Mercury, Earth, Lua, Neptune, and the Void.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Fissureum",
+			"name": "DILUTED THERMIA",
+			"description": "A magma like liquid that is diluted with coolant during the extraction process. Thermia can be found fracturing the surface of the Orb Vallis during thermal flare-ups. Could this be the key to weakening the Exploiter Orb's defenses?",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/FocusLensGreater",
+			"name": "GREATER FOCUS LENS",
+			"description": "A Greater Lens that channels Affinity into Focus for one of the five Tenno Ways.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/FocusLens"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/FocusLensOstron",
+			"name": "EIDOLON LENS",
+			"description": "An enhanced Greater Lens that has been infused with Breath of the Eidolon.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/FocusLens"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Forma",
+			"name": "FORMA",
+			"description": "This shape-altering component is fundamental to Orokin construction. Allows you to change the polarity of a mod slot on a Warframe, Companions or Weapon and then resets their affinity to Unranked. This can only be used on Level 30 Warframes, Companions and Weapons.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/FormaAura",
+			"name": "AURA FORMA",
+			"description": "Modifies an Aura slot on a Warframe to be compatible with any Mod Polarity.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/MiscItems/Forma"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Gallium",
+			"name": "GALLIUM",
+			"description": "Soft metal used in microelectronics and energy weapons.\r
+			\r
+			Locations: Mars and Uranus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/GrnFlameSpearPart",
+			"name": "JAVLOK CAPACITOR",
+			"description": "Used in the construction of Javloks",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/HeavyWeaponCatalyst",
+			"name": "GRAVIMAG",
+			"description": "Allows archwing guns to be deployed in terrestrial zones. Install this device on archwing guns to compensate for atmospheric and gravitational forces not experienced in space.\r
+			NOTE: Deployment requires gear obtained from the Profit-Taker mission in Fortuna.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/HekNavCode",
+			"name": "VAY HEK NAV COORDINATE",
+			"description": "Coordinate used to locate Councilor Vay Hek.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/InfestedAladCoordinate",
+			"name": "MUTALIST ALAD V NAV COORDINATE",
+			"description": "These coordinates can be used to track Mutalist Alad V.\r
+			\r
+			Can be acquired from Infestation Outbreaks & Orokin Derelicts.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/JuggernautPartA",
+			"name": "PULSATING TUBERCLES",
+			"description": "A grizzly trophy extracted from the corpse of a Juggernaut.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/JuggernautPartB",
+			"name": "INFECTED PALPATORS",
+			"description": "A grizzly trophy extracted from the corpse of a Juggernaut.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/JuggernautPartC",
+			"name": "CHITINOUS HUSK",
+			"description": "A grizzly trophy extracted from the corpse of a Juggernaut.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/JuggernautPartD",
+			"name": "SEVERED BILE SAC",
+			"description": "A grizzly trophy extracted from the corpse of a Juggernaut.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Kuva",
+			"name": "KUVA",
+			"description": "A mysterious red fluid coveted by the Grineer Queens.\r
+			\r
+			Obtained in Kuva missions.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/LibraryScannerDoubleScanUpgrade",
+			"name": "CROSS-MATRIX WIDGET",
+			"description": "Chance for each scan with the Synthesis Scanner to count as two scans.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/LibraryScannerUpgrade"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/LibraryScannerEnemyWeaknessUpgrade",
+			"name": "DATA-PARSE WIDGET",
+			"description": "Synthesis Scanner will now show target enemy weaknesses and resistances.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/LibraryScannerUpgrade"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/LibraryScannerRechargeUpgrade",
+			"name": "SOL-BATTERY WIDGET",
+			"description": "Recharges Synthesis Scanner charges.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/LibraryScannerUpgrade"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/LibraryScannerScanSpeedUpgrade",
+			"name": "VECTOR-THREAD WIDGET",
+			"description": "Reduces the time required to scan a target with the Synthesis Scanner.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/LibraryScannerUpgrade"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/LibraryScannerUpgrade",
+			"name": "",
+			"description": "",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/LimboCode",
+			"name": "/Lotus/Language/Items/LimboCodeName",
+			"description": "/Lotus/Language/Items/LimboCodeDesc",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/MirageCode",
+			"name": "OROKIN CIPHER",
+			"description": "This device is used to bypass Orokin encryptions.\r
+			\r
+			Location: Orokin Derelict Vaults",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Morphic",
+			"name": "MORPHICS",
+			"description": "An amorphous solid. Possibly Orokin technology.\r
+			\r
+			Locations: Mercury, Mars, Phobos, Europa, and Pluto.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Nanospores",
+			"name": "NANO SPORES",
+			"description": "Fibrous technocyte tumour. Handle Infested tissue with caution.\r
+			\r
+			Locations: Saturn, Neptune, Eris, and Orokin Derelicts.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/NavCode",
+			"name": "NAV COORDINATE",
+			"description": "Coordinate used to locate lost ships.\r
+			\r
+			Can be acquired from Storage Containers.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/NeuralSensor",
+			"name": "NEURAL SENSORS",
+			"description": "Implanted neural-link for controlling augmentations. Grineer design.\r
+			\r
+			Location: Jupiter.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Neurode",
+			"name": "NEURODES",
+			"description": "Biotech sensor organ harvested from Infested entities.\r
+			\r
+			Locations: Earth, Lua, Eris, and Orokin Derelicts.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/OmegaIsotope",
+			"name": "OMEGA ISOTOPE",
+			"description": "Produced by a Fomorian’s power core, these particles only appear on or around planets where a Fomorian is present.\r
+			\r
+			Location: Any planet with a Balor Fomorian.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/OrokinCatalyst",
+			"name": "OROKIN CATALYST",
+			"description": "Orokin modification technology used to super-charge weaponry. Doubles the available Mod Capacity on a Weapon.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/OrokinCell",
+			"name": "OROKIN CELL",
+			"description": "Ancient energy cell from the Orokin era.\r
+			\r
+			Locations: Ceres, Saturn, and Orokin Derelicts.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/OrokinReactor",
+			"name": "OROKIN REACTOR",
+			"description": "Reactor used to super-charge Warframes. Doubles the available Mod Capacity on a Warframe, Archwing, and Companions.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+			"name": "OXIUM",
+			"description": "Oxium is a rare lighter than air alloy of Orokin origin, used in certain Corpus Robotics.\r
+			\r
+			Locations: Venus, Jupiter, Mars, Neptune, Pluto, Eris, Europa, and Lua.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Plastids",
+			"name": "PLASTIDS",
+			"description": "A disgusting nanite-infested tissue mass.\r
+			\r
+			Locations: Phobos, Saturn, Uranus, Pluto, and Eris.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/PolymerBundle",
+			"name": "POLYMER BUNDLE",
+			"description": "A hard, thermoplastic casing. Manufactured by Corpus.\r
+			\r
+			Locations: Mercury, Venus, and Uranus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/PrimeBucks",
+			"name": "OROKIN DUCATS",
+			"description": "Currency exchanged for Prime components and used to purchase items from the Void Trader.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/RazorbackCipherPart",
+			"name": "CRYPTOGRAPHIC ALU",
+			"description": "Excess circuitry disposed of during the Razorback manufacturing process, these components only appear in the vicinity of high level outer-orbit Corpus facilities after a Razorback Armada has been launched.\r
+			\r
+			This resource can be dropped from Corpus Archwing Units.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Rubedo",
+			"name": "RUBEDO",
+			"description": "A jagged crystalline ore. Gives off radiant energy.\r
+			\r
+			Locations: Earth, Lua, Phobos, Europa, Pluto, Sedna, and the Void.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Salvage",
+			"name": "SALVAGE",
+			"description": "High value metals collected from war salvage.\r
+			\r
+			Locations: Mars, Jupiter, and Sedna.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/StableCorruptorResource",
+			"name": "STABLE CORRUPTOR",
+			"description": "Injected into a Fomorian Reactor this corruptor will imbalance the fuels. Critically imbalanced reactors will eventually implode, destroy the ship. Slow but effective, recommended for Solo Tenno.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/SyringeComponent",
+			"name": "ANTISERUM INJECTOR FRAGMENT",
+			"description": "A component of the Antiserum Injector.\r
+			\r
+			Locations: Infested Salvage Missions on Eris.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/Tellurium",
+			"name": "TELLURIUM",
+			"description": "This rare metal is foreign to the Origin System and can only be found in asteroids that have made the long journey from other stars.\r
+			\r
+			Locations: Archwing Missions on Uranus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/UtilityUnlocker",
+			"name": "EXILUS ADAPTER",
+			"description": "Fuses with a Warframe to unlock the Exilus Mod Slot.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/VayHekCoordinateFragmentA",
+			"name": "DELTA BEACON",
+			"description": "Locator beacon broadcasting on the delta frequency",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/VayHekCoordinateFragmentB",
+			"name": "GAMMA BEACON",
+			"description": "Locator beacon broadcasting on the gamma frequency",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/VayHekCoordinateFragmentC",
+			"name": "KAPPA BEACON",
+			"description": "Locator beacon broadcasting on the kappa frequency",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/VayHekCoordinateFragmentD",
+			"name": "OMEGA BEACON",
+			"description": "Locator beacon broadcasting on the Omega frequency",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/MiscItems/VoidTearDrop",
+			"name": "VOID TRACES",
+			"description": "A substance used to increase the power within Relics.\r
+			\r
+			Can be acquired from Void Fissures.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonDayPlantItem",
+			"name": "SUNLIGHT THRESHCONE",
+			"description": "This common plant can only be found during the day.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Plants/MiscItems/CommonNightPlantItem",
+			"name": "MOONLIGHT THRESHCONE",
+			"description": "This common plant can only be found at night.\r
+			\r
+			Location: Earth",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Plants/MiscItems/GftPlantRuksClawMaturePlantItem",
+			"name": "RUK'S CLAW",
+			"description": "This plant was introduced to arid regions across the Origin System, for its ability to collect moisture in harsh environments.\r
+			\r
+			Locations: Mars",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Plants/MiscItems/MossGroundCoverAPlantItem",
+			"name": "VESTAN MOSS",
+			"description": "One of the few known plant species able to thrive on asteroids in deep space.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Plants/MiscItems/OroFungusAPlantItem",
+			"name": "CERULEAN FUNGUS EXTRACT",
+			"description": "Extracted from a Cerulean Fungus colony.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
+			"name": "",
+			"description": "",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Plants/MiscItems/RareDayPlantItem",
+			"name": "SUNLIGHT JADELEAF",
+			"description": "This rare plant can only be found during the day.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Plants/MiscItems/RareNightPlantItem",
+			"name": "MOONLIGHT JADELEAF",
+			"description": "This rare plant can only be found at night.\r
+			\r
+			Location: Earth",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Plants/MiscItems/UnCommonDayPlantItem",
+			"name": "SUNLIGHT DRAGONLILY",
+			"description": "This uncommon plant can only be found during the day.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Plants/MiscItems/UnCommonNightPlantItem",
+			"name": "MOONLIGHT DRAGONLILY",
+			"description": "This uncommon plant can only be found at night.\r
+			\r
+			Location: Earth",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Plants/MiscItems/WildGingerBPlantItem",
+			"name": "FROSTLEAF",
+			"description": "This resilient plant provides a natural food source in frigid areas of the Origin system.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Plants/MiscItems/ZenCobraLotusPlantItem",
+			"name": "DUSKLIGHT SARRACENIA",
+			"description": "This robust, carnivorous plant has adapted to conditions in polluted waters.\r
+			\r
+			Location: Grineer Shipyard - Ceres",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Plants/MiscItems/ZenPitcherPlantItem",
+			"name": "LUNAR PITCHER",
+			"description": "This carnivorous plant can be found growing in the wilderness on Lua.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/RelayRebuild/PhaseOneClanItem",
+			"name": "RELAY STRUT COMPONENT",
+			"description": "An integral building block in the construction of Tenno relays.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/RelayRebuild/PhaseOneFireElement",
+			"name": "PYRUS ESSENCE",
+			"description": "With a blazing orange hue and rigid material strength, this compound is prized by ship and station architects.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/RelayRebuild/PhaseOneWaterElement",
+			"name": "/Lotus/Language/RelayReconstruction/RelayReconPhase1LeftItemName",
+			"description": "With a blazing orange hue and rigid material strength, this compound is prized by ship and station architects.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/RelayRebuild/PhaseOneFireElement"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/RelayRebuild/PhaseThreeAirEssence",
+			"name": "/Lotus/Language/RelayReconstruction/RelayReconPhase3LeftItemName",
+			"description": "With a blazing orange hue and rigid material strength, this compound is prized by ship and station architects.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/RelayRebuild/PhaseOneFireElement"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/RelayRebuild/PhaseThreeClanItem",
+			"name": "/Lotus/Language/RelayReconstruction/RelayReconPhase3ClanItemName",
+			"description": "An integral building block in the construction of Tenno relays.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/RelayRebuild/PhaseOneClanItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/RelayRebuild/PhaseThreeEarthEssence",
+			"name": "TREMBERA ESSENCE",
+			"description": "A highly purified mineral compound prized for its strength, resiliency, and resistance to heat. Widely used in the construction of Tenno relays.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/RelayRebuild/PhaseOneFireElement"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/RelayRebuild/PhaseTwoClanItem",
+			"name": "/Lotus/Language/RelayReconstruction/RelayReconPhase2ClanItemName",
+			"description": "An integral building block in the construction of Tenno relays.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/RelayRebuild/PhaseOneClanItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/RelayRebuild/PhaseTwoPigmentBright",
+			"name": "/Lotus/Language/RelayReconstruction/RelayReconPhase2ALeftItemName",
+			"description": "With a blazing orange hue and rigid material strength, this compound is prized by ship and station architects.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/RelayRebuild/PhaseOneFireElement"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/RelayRebuild/PhaseTwoPigmentMuted",
+			"name": "/Lotus/Language/RelayReconstruction/RelayReconPhase2ARightItemName",
+			"description": "With a blazing orange hue and rigid material strength, this compound is prized by ship and station architects.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/RelayRebuild/PhaseOneFireElement"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Research/DojoColors/GenericDojoColorPigment",
+			"name": "",
+			"description": "",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/DojoColorResearchIngredient"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Research/BioComponent",
+			"name": "MUTAGEN MASS",
+			"description": "This living mass can produce weaponized toxins for weaponry.\r
+			\r
+			Can be acquired from Infestation Outbreaks & Clan Research.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Research/SampleBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Research/BioFragment",
+			"name": "MUTAGEN SAMPLE",
+			"description": "These samples could advance our knowledge of biological research.\r
+			\r
+			Locations: Eris and Orokin Derelicts.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Research/SampleBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Research/ChemComponent",
+			"name": "DETONITE INJECTOR",
+			"description": "Detonite injectors are the basis for explosive and incendiary weapons.\r
+			\r
+			Can be acquired from Grineer Offensives & Clan Research.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Research/SampleBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Research/ChemFragment",
+			"name": "DETONITE AMPULE",
+			"description": "Researching the Detonite traces within could advance our weapon technology.\r
+			\r
+			Locations: Venus, Earth, Lua, Ceres, Saturn, Sedna, and the Kuva Fortress.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Research/SampleBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Research/CipherPlus",
+			"name": "CORPUS CIPHER",
+			"description": "A cipher used to decode Corpus intel. Crafting component required to create a CORPUS VOID KEY",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Research/DataMassPlus",
+			"name": "CORPUS DATAMASS",
+			"description": "A Corpus datamass containing encrypted intel. Crafting component required to create a CORPUS VOID KEY",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Research/EnergyComponent",
+			"name": "FIELDRON",
+			"description": "ClanTech weaponized containment field to contain superheated substances.\r
+			\r
+			Can be acquired from Corpus Sieges & Clan Research.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Research/SampleBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Research/EnergyFragment",
+			"name": "FIELDRON SAMPLE",
+			"description": "This destroyed Fieldron could further research into super-heated containment fields.\r
+			\r
+			Locations: Venus, Mars, Jupiter, Europa, Neptune, and Pluto.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/Research/SampleBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/CorpusBothUncommonFishATrophy",
+			"name": "MIREWINDER TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/CorpusCoolCommonFishATrophy",
+			"name": "SAPCADDY TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/CorpusCoolUncommonFishATrophy",
+			"name": "EYE-EYE TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/CorpusWarmCommonFishATrophy",
+			"name": "ECHOWINDER TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/CorpusWarmCommonFishBTrophy",
+			"name": "BRICKIE TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/CorpusWarmUncommonFishATrophy",
+			"name": "KRILLER TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/OrokinBothLegendaryFishATrophy",
+			"name": "SYNATHID TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/OrokinBothRareFishATrophy",
+			"name": "CHARAMOTE TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/OrokinCoolRareFishATrophy",
+			"name": "TROMYZON TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisBothCommonFishATrophy",
+			"name": "SCRUBBER TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisCoolCommonFishATrophy",
+			"name": "TINK TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisCoolUncommonFishATrophy",
+			"name": "RECASTER TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Venus/SolarisWarmRareFishATrophy",
+			"name": "LONGWINDER TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Arcade",
+			"name": "LUDOPLEX",
+			"description": "Play the finest games in the Origin System with this device. Comes pre-installed with Frame Fighter.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/BaroKiTeerBobbleHead",
+			"name": "NOGGLE STATUE - BARO KI'TEER",
+			"description": "A wobbly embodiment of grace and distinction.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/BothCommonFishATrophy",
+			"name": "CHARC EEL TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/BothCommonFishBTrophy",
+			"name": "GOOPOLLA TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/BothRareFishATrophy",
+			"name": "MURKRAY TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/BothUncommonFishATrophy",
+			"name": "SHARRAC TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/BothUncommonFishBTrophy",
+			"name": "KARKINA TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/DayCommonFishATrophy",
+			"name": "MAWFISH TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/DayCommonFishBTrophy",
+			"name": "KHUT-KHUT TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/DayCommonFishCTrophy",
+			"name": "YOGWUN TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/DayUncommonFishATrophy",
+			"name": "TRALOK TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/DayUncommonFishBTrophy",
+			"name": "MORTUS LUNGFISH TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/ExcaliburDexBobbleHead",
+			"name": "NOGGLE STATUE - EXCALIBUR DEX",
+			"description": "A small wobbly statue of Excalibur Dex.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/KavatBust",
+			"name": "BRONZE KAVAT BUST",
+			"description": "A sculpture to imbue your Orbiter with the grace and beauty of the Kavat.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/KubrowKavatLowPolyPoster",
+			"name": "PRISMA COMPANION POSTER",
+			"description": "A poster of a Kubrow and Kavat for your Orbiter.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropOstArtisanBulbs",
+			"name": "GILDED ILLUMINATION",
+			"description": "Illumination, crafted by Ostron glassworkers, fashioned and gilded to aesthetic perfection.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropOstBirdCage",
+			"name": "CAGED CONDROC",
+			"description": "A bird of prey to accompany you aboard the Orbiter.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropOstBlubberPileB",
+			"name": "TEMPLE FLESH",
+			"description": "A small sample of sacred Temple flesh, iconic export of Cetus.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropOstHaulingBalloonD",
+			"name": "RECLAMATOR BALLOON",
+			"description": "One of Cetus' signature sights, in miniature.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropOstLanternGround",
+			"name": "XARTAAN LAMP",
+			"description": "Turquoise glass suspended in a handmade gilded basket, filled with bioluminescence.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropOstRodentCage",
+			"name": "CAGED KUAKA",
+			"description": "A small rodent of Earthly origin to keep you company aboard the Orbiter.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropOstRugBaro",
+			"name": "TENNO KINDRED RUG",
+			"description": "Personalize your quarters with this unique rug.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/LisetPropOstStoneFish",
+			"name": "THOUSAND-YEAR FISH STATUETTE",
+			"description": "A glass carving depicting the colossal Thousand-Year Fish of Ostron legend.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/NightLegendaryFishATrophy",
+			"name": "GLAPPID TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/NightRareFishATrophy",
+			"name": "NORG TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/NightRareFishBTrophy",
+			"name": "CUTHOL TROPHY",
+			"description": "A trophy of a prized catch.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/BaseFishTrophy"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/PedistalPrime",
+			"name": "PEDESTAL PRIME",
+			"description": "Behold, the singular vision of a great artist and the life’s work of a master craftsmen. An artifact so refined, so imbued with the finest material that it has no equal in this system. This is the plinth that all others aspire to be. This is Pedestal Prime.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2017Display",
+			"name": "DISPLAY - TENNOCON 2017",
+			"description": "Bestowed upon those who joined together in celebration at TennoCon 2017.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2018Display",
+			"name": "DISPLAY - TENNOCON 2018",
+			"description": "Bestowed upon those who joined together in celebration at TennoCon 2018.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/Tennocon2019Display",
+			"name": "DISPLAY - TENNOCON 2019",
+			"description": "Bestowed upon those who joined together in celebration at TennoCon 2019.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ChildDrawingBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipDecos/UmbraDaxPortrait",
+			"name": "DAX PORTRAIT",
+			"description": "Portrait of a once mighty Dax.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipDecos/ShipDecoItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipFeatureItems/ArsenalFeatureItem",
+			"name": "ARSENAL SEGMENT",
+			"description": "Install this segment in order to enable the Arsenal within your orbiter.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipFeatureItems/EidolonArchwingFoundryUpgradeFeatureItem",
+			"name": "ARCHWING LAUNCHER SEGMENT",
+			"description": "Adds the Archwing Launcher to the foundry",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipFeatureItems/FoundryVesselUpgradeFeatureItem",
+			"name": "LANDING CRAFT FOUNDRY SEGMENT",
+			"description": "Upgrades the Orbiter's Foundry with the following features:\r
+			\r
+			- Allows construction of Landing Craft\r
+			- Allows construction of Air Support Charges\r
+			\r
+			Equip Air Support Charges in your Loadout's Gear",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipFeatureItems/GeneticFoundryCatbrowUpgradeFeatureItem",
+			"name": "KAVAT INCUBATOR UPGRADE SEGMENT",
+			"description": "Allows the Incubator to breed Kavats.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipFeatureItems/GeneticFoundryFeatureItem",
+			"name": "INCUBATOR SEGMENT",
+			"description": "Install this segment to enable the pet incubator within your Orbiter.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipFeatureItems/GeneticFoundryUpgradeFeatureItem",
+			"name": "NUTRIO INCUBATOR UPGRADE SEGMENT",
+			"description": "Upgrades the Orbiter's Incubator with the following features:\r
+			\r
+			- Stasis Recovery is immediate\r
+			- Reduced price of stabilizers\r
+			- Egg incubation reduced by a day\r
+			- Stabilizers last twice as long",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipFeatureItems/ModsFusionFeatureItem",
+			"name": "MOD FUSION SEGMENT",
+			"description": "Install this segment to enable the Mod Fusion function within the MODS terminal of your Orbiter.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipFeatureItems/ModsTransmuteFeatureItem",
+			"name": "MOD TRANSMUTE SEGMENT",
+			"description": "Install this segment to enable the Mod Transmutation function within the MODS terminal of your Orbiter.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/ShipFeatureItems/PersonalQuartersFeatureItem",
+			"name": "PERSONAL QUARTERS SEGMENT",
+			"description": "",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/ShipFeatureItems/ShipFeatureItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Ships/BlueSkyShip",
+			"name": "SCIMITAR",
+			"description": "This blade-like landing craft is armed with Carpet Bomb air-support.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/ShipItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Ships/DefaultShip",
+			"name": "LISET",
+			"description": "The landing craft of choice utilised by the Tenno during their missions.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/ShipItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Ships/GyroscopeShip",
+			"name": "XIPHOS",
+			"description": "Featuring Sentry Gun air-support, this stylish landing craft is an asset in any battle.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/ShipItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Ships/InsectShip",
+			"name": "MANTIS",
+			"description": "This insect-like landing craft features Med-Tower air-support.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/ShipItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Solaris/AnimalTagBolarolaCommon",
+			"name": "SPOTTED BOLAROLA TAG",
+			"description": "For saving a specimen of this species.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Solaris/AnimalTagBolarolaRare",
+			"name": "THORNY BOLAROLA TAG",
+			"description": "For saving a specimen of this subspecies.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Solaris/AnimalTagBolarolaUncommon",
+			"name": "BLACK-BANDED BOLAROLA TAG",
+			"description": "For saving a specimen of this subspecies.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Solaris/AnimalTagKubrodonCommon",
+			"name": "BRINDLE KUBRODON TAG",
+			"description": "For saving a specimen of this species.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Solaris/AnimalTagKubrodonRare",
+			"name": "KUBRODON INCARNADINE TAG",
+			"description": "For saving a specimen of this subspecies.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Solaris/AnimalTagKubrodonUncommon",
+			"name": "VALLIS KUBRODON TAG",
+			"description": "For saving a specimen of this subspecies.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Solaris/AnimalTagPobbersCommon",
+			"name": "SUNNY POBBER TAG",
+			"description": "For saving a specimen of this species.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Solaris/AnimalTagPobbersRare",
+			"name": "SUBTERRANEAN POBBER TAG",
+			"description": "For saving a specimen of this subspecies.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Solaris/AnimalTagPobbersUncommon",
+			"name": "DELICATE POBBER TAG",
+			"description": "For saving a specimen of this subspecies.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Solaris/AnimalTagVirminkCommon",
+			"name": "WHITE-BREASTED VIRMINK TAG",
+			"description": "For saving a specimen of this species.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Solaris/AnimalTagVirminkRare",
+			"name": "RED-CRESTED VIRMINK TAG",
+			"description": "For saving a specimen of this subspecies.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/Solaris/AnimalTagVirminkUncommon",
+			"name": "DUSKY-HEADED VIRMINK TAG",
+			"description": "For saving a specimen of this subspecies.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ResourceItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/ArbitersDogTag",
+			"name": "MEDALLION",
+			"description": "Medallion of the Arbiters of Hexis syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/DogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/ArbitersRareDogTag",
+			"name": "MAXIM MEDALLION",
+			"description": "Medallion of the Arbiters of Hexis syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/ArbitersUncommonDogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/ArbitersUncommonDogTag",
+			"name": "LAWFUL MEDALLION",
+			"description": "Medallion of the Arbiters of Hexis syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/ArbitersDogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/CephalonDogTag",
+			"name": "DATUM",
+			"description": "Medallion of the Cephalon Suda syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/DogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/CephalonRareDogTag",
+			"name": "GENIUS DATUM",
+			"description": "Medallion of the Cephalon Suda syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/CephalonUncommonDogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/CephalonUncommonDogTag",
+			"name": "INTRIGUING DATUM",
+			"description": "Medallion of the Cephalon Suda syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/CephalonDogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/DogTag",
+			"name": "",
+			"description": "",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/NewLokaDogTag",
+			"name": "SEED",
+			"description": "Medallion of the New Loka syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/DogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/NewLokaRareDogTag",
+			"name": "FLAWLESS SEED",
+			"description": "Medallion of the New Loka syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/NewLokaUncommonDogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/NewLokaUncommonDogTag",
+			"name": "BOUNTIFUL SEED",
+			"description": "Medallion of the New Loka syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/NewLokaDogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/NoraWolfDogTag",
+			"name": "NIGHTWAVE <REPUTATION_SMALL> STANDING",
+			"description": "[PH] Description",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/DogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/PerrinDogTag",
+			"name": "QUITTANCE",
+			"description": "Medallion of The Perrin Sequence syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/DogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/PerrinRareDogTag",
+			"name": "PARTNER QUITTANCE",
+			"description": "Medallion of The Perrin Sequence syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/PerrinUncommonDogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/PerrinUncommonDogTag",
+			"name": "EXECUTIVE QUITTANCE",
+			"description": "Medallion of The Perrin Sequence syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/PerrinDogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/RedVeilDogTag",
+			"name": "MARK",
+			"description": "Medallion of Red Veil syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/DogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/RedVeilRareDogTag",
+			"name": "EXALTED MARK",
+			"description": "Medallion of Red Veil syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/RedVeilUncommonDogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/RedVeilUncommonDogTag",
+			"name": "HONORED MARK",
+			"description": "Medallion of Red Veil syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/RedVeilDogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/SteelMeridianDogTag",
+			"name": "INSIGNIA",
+			"description": "Medallion of the Steel Meridian syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/DogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/SteelMeridianRareDogTag",
+			"name": "GENERAL INSIGNIA",
+			"description": "Medallion of the Steel Meridian syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/SteelMeridianUncommonDogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Items/SyndicateDogTags/SteelMeridianUncommonDogTag",
+			"name": "DEFENDER INSIGNIA",
+			"description": "Medallion of the Steel Meridian syndicate. Can be traded in on relay syndicate hubs for additional standing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/SyndicateDogTags/SteelMeridianDogTag"
+		}, {
+			"uniqueName": "/Lotus/Types/Keys/BardQuest/BardQuestSequencerItem",
+			"name": "MANDACHORD",
+			"description": "A rare Orokin instrument.",
+			"longDescription": "",
+			"codexSecret": true,
+			"parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/ArchwingRecipes/DemolitionArchwing/DemolitionArchwingChassisComponent",
+			"name": "ELYTRON HARNESS",
+			"description": "Harness component of the Elytron Archwing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/ArchwingRecipes/DemolitionArchwing/DemolitionArchwingSystemsComponent",
+			"name": "ELYTRON SYSTEMS",
+			"description": "Systems component of the Elytron Archwing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/ArchwingRecipes/DemolitionArchwing/DemolitionArchwingWingsComponent",
+			"name": "ELYTRON WINGS",
+			"description": "Wings component of the Elytron Archwing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/ArchwingRecipes/PrimeArchwing/PrimeArchwingChassisComponent",
+			"name": "ODONATA PRIME HARNESS",
+			"description": "Harness component of the Odonata Prime Archwing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/ArchwingRecipes/PrimeArchwing/PrimeArchwingSystemsComponent",
+			"name": "ODONATA PRIME SYSTEMS",
+			"description": "Systems component of the Odonata Prime Archwing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/ArchwingRecipes/PrimeArchwing/PrimeArchwingWingsComponent",
+			"name": "ODONATA PRIME WINGS",
+			"description": "Wings component of the Odonata Prime Archwing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/ArchwingRecipes/StandardArchwing/StandardArchwingChassisComponent",
+			"name": "ODONATA HARNESS",
+			"description": "Harness component of the Odonata Archwing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/ArchwingRecipes/StandardArchwing/StandardArchwingSystemsComponent",
+			"name": "ODONATA SYSTEMS",
+			"description": "Systems component of the Odonata Archwing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/ArchwingRecipes/StandardArchwing/StandardArchwingWingsComponent",
+			"name": "ODONATA WINGS",
+			"description": "Wings component of the Odonata Archwing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/ArchwingRecipes/StealthArchwing/StealthArchwingChassisComponent",
+			"name": "ITZAL HARNESS",
+			"description": "Harness component of the Itzal Archwing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/ArchwingRecipes/StealthArchwing/StealthArchwingSystemsComponent",
+			"name": "ITZAL SYSTEMS",
+			"description": "Systems component of the Itzal Archwing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/ArchwingRecipes/StealthArchwing/StealthArchwingWingsComponent",
+			"name": "ITZAL WINGS",
+			"description": "Wings component of the Itzal Archwing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/ArchwingRecipes/SupportArchwing/SupportArchwingChassisComponent",
+			"name": "AMESHA HARNESS",
+			"description": "Harness component of the Amesha Archwing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/ArchwingRecipes/SupportArchwing/SupportArchwingSystemsComponent",
+			"name": "AMESHA SYSTEMS",
+			"description": "Systems component of the Amesha Archwing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/ArchwingRecipes/SupportArchwing/SupportArchwingWingsComponent",
+			"name": "AMESHA WINGS",
+			"description": "Wings component of the Amesha Archwing.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ArchwingComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/Kubrow/Collars/PrimeKubrowCollarABandComponent",
+			"name": "KAVASA PRIME BAND",
+			"description": "A prime sentinel accessory-crafting component.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/Kubrow/Collars/PrimeKubrowCollarABuckleComponent",
+			"name": "KAVASA PRIME BUCKLE",
+			"description": "A prime sentinel accessory-crafting component.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/BlueSky/BlueSkyAvionicsComponent",
+			"name": "SCIMITAR AVIONICS",
+			"description": "Avionics component of the Scimitar landing craft.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/BlueSky/BlueSkyEnginesComponent",
+			"name": "SCIMITAR ENGINES",
+			"description": "Engines component of the Scimitar landing craft.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/BlueSky/BlueSkyFuselageComponent",
+			"name": "SCIMITAR FUSELAGE",
+			"description": "Fuselage component of the Scimitar landing craft.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/Gyroscope/GyroscopeAvionicsComponent",
+			"name": "XIPHOS AVIONICS",
+			"description": "Avionics component of the Xiphos landing craft.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/Gyroscope/GyroscopeEnginesComponent",
+			"name": "XIPHOS ENGINES",
+			"description": "Engines component of the Xiphos landing craft.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/Gyroscope/GyroscopeFuselageComponent",
+			"name": "XIPHOS FUSELAGE",
+			"description": "Fuselage component of the Xiphos landing craft.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/Mantys/MantysExoskeletonComponent",
+			"name": "MANTIS FUSELAGE",
+			"description": "Fuselage component of the Mantis landing craft.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/Mantys/MantysPowerCoreComponent",
+			"name": "MANTIS ENGINES",
+			"description": "Engines component of the Mantis landing craft.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/LandingCraftRecipes/Mantys/MantysStarChartComponent",
+			"name": "MANTIS AVIONICS",
+			"description": "Avionics component of the Mantis landing craft.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/ShipComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AnimaChassisComponent",
+			"name": "EQUINOX NIGHT CHASSIS",
+			"description": "Chassis component of the Equinox Night Aspect.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AnimaComponent",
+			"name": "EQUINOX NIGHT ASPECT",
+			"description": "Night Aspect of the Equinox Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AnimaHelmetComponent",
+			"name": "EQUINOX NIGHT NEUROPTICS",
+			"description": "Neuroptics component of the Equinox Night Aspect.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AnimaSystemsComponent",
+			"name": "EQUINOX NIGHT SYSTEMS",
+			"description": "Systems component of the Equinox Night Aspect.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AnimusChassisComponent",
+			"name": "EQUINOX DAY CHASSIS",
+			"description": "Chassis component of the Equinox Day Aspect.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AnimusComponent",
+			"name": "EQUINOX DAY ASPECT",
+			"description": "Day Aspect of the Equinox Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AnimusHelmetComponent",
+			"name": "EQUINOX DAY NEUROPTICS",
+			"description": "Neuroptics component of the Equinox Day Aspect.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AnimusSystemsComponent",
+			"name": "EQUINOX DAY SYSTEMS",
+			"description": "Systems component of the Equinox Day Aspect.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AshChassisComponent",
+			"name": "ASH CHASSIS",
+			"description": "Chassis component of the Ash Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AshHelmetComponent",
+			"name": "ASH NEUROPTICS",
+			"description": "Neuroptics component of the Ash Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AshPrimeChassisComponent",
+			"name": "ASH PRIME CHASSIS",
+			"description": "Chassis component of the Ash Prime Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AshPrimeHelmetComponent",
+			"name": "ASH PRIME NEUROPTICS",
+			"description": "Neuroptics component of the Ash Prime Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AshPrimeSystemsComponent",
+			"name": "ASH PRIME SYSTEMS",
+			"description": "Systems component of the Ash Prime Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/AshSystemsComponent",
+			"name": "ASH SYSTEMS",
+			"description": "Systems component of the Ash Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BansheeChassisComponent",
+			"name": "BANSHEE CHASSIS",
+			"description": "Chassis component of the Banshee Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BansheeHelmetComponent",
+			"name": "BANSHEE NEUROPTICS",
+			"description": "Neuroptics component of the Banshee Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BansheePrimeChassisComponent",
+			"name": "BANSHEE PRIME CHASSIS",
+			"description": "Chassis component of the Banshee Prime Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BansheePrimeHelmetComponent",
+			"name": "BANSHEE PRIME NEUROPTICS",
+			"description": "Neuroptics component of the Banshee Prime Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BansheePrimeSystemsComponent",
+			"name": "BANSHEE PRIME SYSTEMS",
+			"description": "Systems component of the Banshee Prime Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BansheeSystemsComponent",
+			"name": "BANSHEE SYSTEMS",
+			"description": "Systems component of the Banshee Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BerserkerChassisComponent",
+			"name": "VALKYR CHASSIS",
+			"description": "Chassis component of the Valkyr Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BerserkerHelmetComponent",
+			"name": "VALKYR NEUROPTICS",
+			"description": "Neuroptics component of the Valkyr Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BerserkerSystemsComponent",
+			"name": "VALKYR SYSTEMS",
+			"description": "Systems component of the Valkyr Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BrawlerChassisComponent",
+			"name": "ATLAS CHASSIS",
+			"description": "Chassis component of the Atlas Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BrawlerHelmetComponent",
+			"name": "ATLAS NEUROPTICS",
+			"description": "Neuroptics component of the Atlas Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/BrawlerSystemsComponent",
+			"name": "ATLAS SYSTEMS",
+			"description": "Systems component of the Atlas Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ChromaChassisComponent",
+			"name": "CHROMA CHASSIS",
+			"description": "Chassis component of the Chroma Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ChromaHelmetComponent",
+			"name": "CHROMA NEUROPTICS",
+			"description": "Neuroptics component of the Chroma Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ChromaPrimeChassisComponent",
+			"name": "CHROMA PRIME CHASSIS",
+			"description": "Chassis component of the Chroma Prime Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ChromaPrimeHelmetComponent",
+			"name": "CHROMA PRIME NEUROPTICS",
+			"description": "Neuroptics component of the Chroma Prime Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ChromaPrimeSystemsComponent",
+			"name": "CHROMA PRIME SYSTEMS",
+			"description": "Systems component of the Chroma Prime Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/ChromaSystemsComponent",
+			"name": "CHROMA SYSTEMS",
+			"description": "Systems component of the Chroma Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/EmberChassisComponent",
+			"name": "EMBER CHASSIS",
+			"description": "Chassis component of the Ember Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/EmberHelmetComponent",
+			"name": "EMBER NEUROPTICS",
+			"description": "Neuroptics component of the Ember Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/EmberPrimeChassisComponent",
+			"name": "EMBER PRIME CHASSIS",
+			"description": "Chassis component of the Ember Prime Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/EmberPrimeHelmetComponent",
+			"name": "EMBER PRIME NEUROPTICS",
+			"description": "Neuroptics component of the Ember Prime Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Types/Recipes/WarframeRecipes/EmberPrimeSystemsComponent",
+			"name": "EMBER PRIME SYSTEMS",
+			"description": "Systems component of the Ember Prime Warframe.",
+			"longDescription": "",
+			"codexSecret": false,
+			"parentName": "/Lotus/Types/Items/MiscItems/WarframeComponentItem"
+		}, {
+			"uniqueName": "/Lotus/Typ
